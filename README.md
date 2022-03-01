@@ -1,12 +1,14 @@
 # Flood-Mapping-Using-Satellite-Images
 MSc Thesis - Data Science - UoP &amp; NCSR "Demokritos"
 
-<h1> Flood Events </h1>
+<h2> Flood Events </h2>
 
-<h2> Hand Labeled </h2> 
+<h3> Hand Labeled </h3> 
 
-![Screenshot 2022-03-01 at 22 20 48](https://user-images.githubusercontent.com/23013328/156242808-f49b4fe7-53a1-42a3-911c-c4f2acf356e0.png)
+![Screenshot 2022-03-01 at 22 29 28](https://user-images.githubusercontent.com/23013328/156243983-dd862316-9998-4c27-91ea-600603a84e4b.png)
 
-</h2> Weakly Labeled </h2>
 
-![Screenshot 2022-03-01 at 22 24 13](https://user-images.githubusercontent.com/23013328/156243351-322dbb61-99ae-46b7-8f4c-e24bd1b149a6.png)
+<h3> Weakly Labeled </h3>
+
+
+![Screenshot 2022-03-01 at 22 28 50](https://user-images.githubusercontent.com/23013328/156243919-c9205e31-730b-42f1-ab17-27a27661b341.png)
