@@ -1,6 +1,11 @@
 # Flood-Mapping-Using-Satellite-Images
 MSc Thesis - Data Science - UoP &amp; NCSR "Demokritos"
 
+The dataset used in named as <b>Sen1Floods11</b> and it is comprised with Sentinel 1 & 2 images with the corresponding ground truth. The dataset contains two man folders as shown below:
+![Capture](https://user-images.githubusercontent.com/23013328/156328362-d9ed2228-bd20-4d75-b254-711b1da30d08.PNG)
+
+
+
 <h2> Flood Events </h2>
 
 <h3> Hand Labeled </h3> 
