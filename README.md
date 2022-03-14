@@ -9,6 +9,9 @@ It is further down splitted in to subfolders as shown in the image below:
 
 ![Capture2](https://user-images.githubusercontent.com/23013328/156328879-6268e602-c81c-4275-8ae4-7d4085baf820.PNG)
 
+The WeaklyLabeled folder
+
+![image](https://user-images.githubusercontent.com/23013328/158182582-fd4a76e3-9842-4221-a285-e02dcad35e28.png)
 
 
 <h2> Flood Events </h2>
