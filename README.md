@@ -13,7 +13,7 @@ The <b> HandLabeled </b> subfolder is splitted into 6 subfolders as shown in the
 
 ![Capture2](https://user-images.githubusercontent.com/23013328/156328879-6268e602-c81c-4275-8ae4-7d4085baf820.PNG)
 
-The WeaklyLabeled folder
+While the <b>WeaklyLabeled</b> folder
 
 ![image](https://user-images.githubusercontent.com/23013328/158182582-fd4a76e3-9842-4221-a285-e02dcad35e28.png)
 
