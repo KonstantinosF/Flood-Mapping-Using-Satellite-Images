@@ -5,7 +5,7 @@ The dataset used in named as <b>Sen1Floods11</b> and it is comprised with Sentin
 
 ![Capture](https://user-images.githubusercontent.com/23013328/156328362-d9ed2228-bd20-4d75-b254-711b1da30d08.PNG)
 
-The <b>flood_events</b> folder is further splitted into subfolders as shown in the image below:
+The <b>flood_events</b> folder is further splitted into 6 subfolders as shown in the image below:
 
 ![Capture2](https://user-images.githubusercontent.com/23013328/156328879-6268e602-c81c-4275-8ae4-7d4085baf820.PNG)
 
