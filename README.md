@@ -21,6 +21,7 @@ While the <b>WeaklyLabeled</b> folder
 <h2> Flood Events </h2>
 
 <h3> Hand Labeled </h3> 
+This subfolder contains one folder <b> S1Hand</b> which consists of sentinel 1 image patches with two polarization bands (VH & VV) and another one called <b> S2Hand </b> which includes Sentinel 2 image patches with all 13 spectral bands. The rest folders are the coresponding ground trouth mask, each one being created with a different method.
 
 ![Screenshot 2022-03-01 at 22 29 28](https://user-images.githubusercontent.com/23013328/156243983-dd862316-9998-4c27-91ea-600603a84e4b.png)
 
