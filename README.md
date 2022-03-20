@@ -30,3 +30,10 @@ This subfolder contains one folder <b> S1Hand</b> which consists of sentinel 1 i
 
 
 ![Screenshot 2022-03-01 at 22 28 50](https://user-images.githubusercontent.com/23013328/156243919-c9205e31-730b-42f1-ab17-27a27661b341.png)
+
+
+<h2> Experiments  </h2>
+
+<h3> U-NET </h3>
+
+<h3> Transfer Learning - VGG16 </h3>
