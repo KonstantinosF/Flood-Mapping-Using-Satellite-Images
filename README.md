@@ -51,4 +51,8 @@ U-Net is a convolutional neural network that was developed for biomedical image 
 | S2Hand & JRCWaterHand    |     96.50     | 0.48 |
 | S2Hand & LabelHand       |     75.60     |      |
 
-<h3> Transfer Learning - VGG16 </h3>
+
+
+<h3> 2. XNet </h3>
+
+<h3> 3. Transfer Learning - VGG16 </h3>
