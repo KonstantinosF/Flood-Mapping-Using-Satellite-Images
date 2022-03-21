@@ -58,3 +58,10 @@ U-Net is a convolutional neural network that was developed for biomedical image 
 <h3> 3. Transfer Learning - VGG16 </h3>
 
 <h2> Pre - Processing - Sentinel 1 </h2>
+
+- Apply orbit file 
+- GRD border noise removal
+- Thermal noise removal
+- Radiometric calibration
+- Terrain correction (orthorectification)
+  
