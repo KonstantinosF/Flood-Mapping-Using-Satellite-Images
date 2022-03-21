@@ -40,12 +40,12 @@ This subfolder contains one folder <b> S1Hand</b> which consists of sentinel 1 i
 U-Net is a convolutional neural network that was developed for biomedical image segmentation. The network is based on the <b>fully convolutional network</b> and its architecture was modified and extended to work with fewer training images and to yield more precise segmentations. The network consists of a contracting path (convolution) and an expansive path (deconvolution), which gives it the u-shaped architecture. The contracting path is a typical convolutional network that consists of repeated application of convolutions, each followed by a rectified linear unit (ReLU) and a max pooling operation. During the contraction, the spatial information is reduced while feature information is increased. The expansive pathway combines the feature and spatial information through a sequence of up-convolutions and concatenations with high-resolution features from the contracting path. [https://en.wikipedia.org/wiki/U-Net#cite_note-Shelhamer_2017-2]
 </p>
 
-| Source & Labels          | Test Accuracy |
+| Source & Labels          | Test Accuracy |  IoU |
 | ------------------------ |   ----------- |
-| S1Hand & LabelHand       |     78.25     |
-| S1Hand & S1OtsuLabelHand |     88.4      |   
-| S1Hand & JRCWaterHand    |     96.28     |
-| S2Hand & JRCWaterHand    |     96.50     |
-| S2Hand & LabelHand       |     75.60     |
+| S1Hand & LabelHand       |     78.25     |      |
+| S1Hand & S1OtsuLabelHand |     88.4      |      |
+| S1Hand & JRCWaterHand    |     96.28     |      |
+| S2Hand & JRCWaterHand    |     96.50     | 0.48 |
+| S2Hand & LabelHand       |     75.60     |      |
 
 <h3> Transfer Learning - VGG16 </h3>
