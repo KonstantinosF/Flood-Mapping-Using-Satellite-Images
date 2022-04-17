@@ -42,7 +42,7 @@ U-Net is a convolutional neural network that was developed for biomedical image 
 
 ![image](https://user-images.githubusercontent.com/23013328/159357537-8c5fff43-910e-4ce1-a98b-773b7836a0b8.png)
 
-|                 Hand Labeled                    |
+| Hand Labeled             |               |      |
 | Source & Labels          | Test Accuracy |  IoU |
 | ------------------------ |   ----------- | ---- |
 | S1Hand & LabelHand       |     78.25     |      |
