@@ -48,7 +48,7 @@ U-Net is a convolutional neural network that was developed for biomedical image 
 | ------------------------ |   ----------- | ---- |
 | S1Hand & LabelHand       |     78.25     | 0.38 |
 | S1Hand & S1OtsuLabelHand |     88.4      | 0.38 |
-| S1Hand & JRCWaterHand    |     96.28     |      |
+| S1Hand & JRCWaterHand    |     96.28     | 0.48 |
 | S2Hand & JRCWaterHand    |     96.50     | 0.48 |
 | S2Hand & LabelHand       |     75.60     |      |
 
