@@ -58,6 +58,23 @@ U-Net is a convolutional neural network that was developed for biomedical image 
 
 <h3> 3. Transfer Learning - VGG16 </h3>
 
+![image](https://user-images.githubusercontent.com/23013328/166447610-df628514-8824-4641-8180-5eb4bd1c4e26.png)
+
+A CNN can be divided into two main parts: Feature learning and classification.
+
+Feature Learning
+
+In this part, the main goal of the NN is to find patterns in the pixels of the images that can be useful to identify the targets of the classification. That happens in the convolution layers of the network that specializes in those patterns for the problem at hand.
+
+Classification
+
+Now we want to use those patterns to classify our images to their correct label. This part of the network does exactly that job, it uses the inputs from the previous layers to find the best class to your matched patterns in the new image.
+
+
+
+
+Reference: https://towardsdatascience.com/transfer-learning-with-vgg16-and-keras-50ea161580b4
+
 <h2> Pre - Processing - Sentinel 1 </h2>
 
 - Apply orbit file 
