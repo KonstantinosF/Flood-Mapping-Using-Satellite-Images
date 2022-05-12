@@ -54,7 +54,7 @@ U-Net is a convolutional neural network that was developed for biomedical image 
 
 
 
-<h3> 2. XNet </h3>
+<h3> 2. Random Forest - Feature Engineering </h3>
 
 <h3> 3. Transfer Learning - VGG16 </h3>
 
