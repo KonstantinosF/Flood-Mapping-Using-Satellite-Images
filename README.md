@@ -60,7 +60,10 @@ Feature based segmentation using Random Forest
 List of Hand Crafted Features:
 
 - Gabor Filter
-- ROBERTS EDGE
+  In image processing, a Gabor filter, is a linear filter used for texture analysis, which essentially means that it analyzes whether there is any           specific frequency content in the image in specific directions in a localized region around the point or region of analysis.
+  
+- Roberts Cross
+  The Roberts cross operator is used for edge detection. As a differential operator, the idea behind the Roberts cross operator is to approximate the       gradient of an image through discrete differentiation which is achieved by computing the sum of the squares of the differences between diagonally         adjacent pixels.
 - SOBEL
 - SCHARR
 - PREWITT
