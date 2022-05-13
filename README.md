@@ -71,7 +71,9 @@ List of Hand Crafted Features:
 - <b> PREWITT </b> <br/>
   <p> The Prewitt operator is used in image processing, particularly within edge detection algorithms. Technically, it is a discrete differentiation             operator, computing an approximation of the gradient of the image intensity function. The Prewitt operator is based on convolving the image with a         small, separable, and integer valued filter in horizontal and vertical directions and is therefore relatively inexpensive in terms of computations         like Sobel and Kayyali </p>
 - <b> Gaussian </b> </br>
+  <p> Gaussian filter is a filter whose impulse response is a Gaussian function or an approximation to it. Gaussian filters have the properties of having       no overshoot to a step function input while minimizing the rise and fall time. </p>
 - <b> Median </b> </br>
+   The median filter is a non-linear digital filtering technique, often used to remove noise from an image or signal. Median filtering is widely used in      digital image processing because it preserves edges while removing noise.
 - <b> Variance </b> </br>
 
 <h3> 3. Transfer Learning - VGG16 </h3>
