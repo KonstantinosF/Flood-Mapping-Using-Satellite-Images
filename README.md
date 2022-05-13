@@ -64,12 +64,12 @@ List of Hand Crafted Features:
   
 - <b> Roberts Cross </b> </br>
   <p> The Roberts cross operator is used for edge detection. As a differential operator, the idea behind the Roberts cross operator is to approximate the       gradient of an image through discrete differentiation which is achieved by computing the sum of the squares of the differences between diagonally         adjacent pixels. </p>
-- <b> SOBEL </b> </br>
- <p> The Sobel operator is used in image processing and computer vision, particularly within edge detection algorithms where it creates an image                emphasising edges.  </p>
-- <b> SCHARR </b> </br>
+- <b> Sobel Filter </b> </br>
+  <p> The Sobel operator is used in image processing and computer vision, particularly within edge detection algorithms where it creates an image                emphasising edges.</p>
+- <b> Scharr Filter </b> </br>
   <p> Scharr is also used to detect the second derivatives of an image in horizontal and vertical directions. </p>
 - <b> PREWITT </b> <br/>
-  <p> The Prewitt operator is used in image processing, particularly within edge detection algorithms. Technically, it is a discrete differentiation operator, computing an approximation of the gradient of the image intensity function. The Prewitt operator is based on convolving the image with a small, separable, and integer valued filter in horizontal and vertical directions and is therefore relatively inexpensive in terms of computations like Sobel and Kayyali </p>
+  <p> The Prewitt operator is used in image processing, particularly within edge detection algorithms. Technically, it is a discrete differentiation             operator, computing an approximation of the gradient of the image intensity function. The Prewitt operator is based on convolving the image with a         small, separable, and integer valued filter in horizontal and vertical directions and is therefore relatively inexpensive in terms of computations         like Sobel and Kayyali </p>
 - <b> Gaussian </b> </br>
 - <b> Median </b> </br>
 - <b> Variance </b> </br>
