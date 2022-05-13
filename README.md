@@ -57,6 +57,18 @@ U-Net is a convolutional neural network that was developed for biomedical image 
 <h3> 2. Random Forest - Feature Engineering </h3>
 Feature based segmentation using Random Forest
 
+List of Hand Crafted Features:
+
+- Gabor Filter
+- ROBERTS EDGE
+- SOBEL
+- SCHARR
+- PREWITT
+- GAUSSIAN with sigma=3
+- GAUSSIAN with sigma=7
+- MEDIAN with sigma=3
+- VARIANCE with size=3
+
 <h3> 3. Transfer Learning - VGG16 </h3>
 
 ![image](https://user-images.githubusercontent.com/23013328/166447610-df628514-8824-4641-8180-5eb4bd1c4e26.png)
