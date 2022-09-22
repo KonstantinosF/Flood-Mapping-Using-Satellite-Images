@@ -75,6 +75,9 @@ List of Hand Crafted Features:
 - <b> Median </b> </br>
    The median filter is a non-linear digital filtering technique, often used to remove noise from an image or signal. Median filtering is widely used in      digital image processing because it preserves edges while removing noise.
 - <b> Variance </b> </br>
+- <b> NDVI </b> </br>
+- <b> NDWI </b> </br>
+- <b> MNDWI </b> </br>
 
 
 | Hand Labeled             |               |      | Weakly Labeled          |               |     |
