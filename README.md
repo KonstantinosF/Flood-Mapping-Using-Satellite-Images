@@ -87,19 +87,19 @@ More specifically for Sentinel 2 band the formula is modified as follows:
 - <b> NDWI </b> </br>
 The NDWI is used to monitor changes related to water bodies. As water bodies strongly absorb light in the visible to infrared electromagnetic spectrum, NDWI uses green and near infrared bands to highlight water bodies. It is sensitive to built-up land and can result in overestimation of water bodies. Index values greater than 0.5 usually correspond to water bodies, while vegetation usually corresponds to much smaller values and built-up areas to values between zero and 0.2. This index can be used as a complementary to NDVI since it is sensitive to changes in water content of vegetation canopies.
 The NDWI results from the following equation:
-NDWI = (NIR – SWIR) / (NIR + SWIR)
+    NDWI = (NIR – SWIR) / (NIR + SWIR)
 
-For Sentinel 2 Bands the formula uses the following spectral bands:
+    For Sentinel 2 Bands the formula uses the following spectral bands:
 
-NDWI = (B03 - B08) / (B03 + B08)
+    NDWI = (B03 - B08) / (B03 + B08)
 
 - <b> MNDWI </b> </br>
 The Modified Normalized Difference Water Index (MNDWI) uses green and SWIR bands for the enhancement of open water features. It also diminishes built-up area features that are often correlated with open water in other indices. The modified NDWI (MNDWI) can enhance open water features while efficiently suppressing and even removing built‐up land noise as well as vegetation and soil noise. The enhanced water information using the NDWI is often mixed with built‐up land noise and the area of extracted water is thus overestimated. Accordingly, the MNDWI is more suitable for enhancing and extracting water information for a water region with a background dominated by built‐up land areas.
-The MNDWI results from the following equation:
+    The MNDWI results from the following equation:
           MNDWI = (Green - SWIR) / (Green + SWIR)
-More specifically for Sentinel 2 bands the MNDWI the equation is formed as follows:
+    More specifically for Sentinel 2 bands the MNDWI the equation is formed as follows:
 
-MNDWI = (B3 - B11) / (B3 + B11)
+    MNDWI = (B3 - B11) / (B3 + B11)
 
 
 
