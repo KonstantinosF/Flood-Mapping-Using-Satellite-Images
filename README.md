@@ -42,16 +42,16 @@ U-Net is a convolutional neural network that was developed for biomedical image 
 
 ![image](https://user-images.githubusercontent.com/23013328/159357537-8c5fff43-910e-4ce1-a98b-773b7836a0b8.png)
 
-| Hand Labeled             |               |      | Weakly Labeled          |               |     |
-| ------------------------ | ------------- | ---- | ----------------------- | ------------- |---- |
-| Source & Labels          | Test Accuracy |  IoU | Source & Labels         | Test Accuracy | IOU |
-| ------------------------ |   ----------- | ---- | ----------------------- | ------------- | --- |
-| S1Hand & LabelHand       |     78.25     | 0.38 | S1Hand & S1OtsuLabelWeak|               |     |
-| S1Hand & S1OtsuLabelHand |     88.4      | 0.38 | S1Hand & S2IndexLabel   |               |     |
-| S1Hand & JRCWaterHand    |     96.28     | 0.48 |                         |               |     |
-| S2Hand & JRCWaterHand    |     96.50     | 0.48 |                         |               |     |
-| S2Hand & LabelHand       |     75.60     | 0.38 |                         |               |     |
-| S2Hand & S1OtsuLabelHand |               | 0.43 |                         |               |     |
+| Hand Labeled             |               |      | Weakly Labeled          |               |     | Weakly Supervised       |               |     |
+| ------------------------ | ------------- | ---- | ----------------------- | ------------- | --- | ----------------------- | ------------- | --- |
+| Source & Labels          | Test Accuracy |  IoU | Source & Labels         | Test Accuracy | IOU | Trained On              | Tested on     | IOU |
+| ------------------------ |  ------------ | ---- | ----------------------- | ------------- | --- | ----------------------- | ------------- | --- |
+| S1Hand & LabelHand       |     78.25     | 0.38 | S1Hand & S1OtsuLabelWeak|               |     | S1Hand & S1OtsuLabelWeak| LabelHand     |     |
+| S1Hand & S1OtsuLabelHand |     88.4      | 0.38 | S1Hand & S2IndexLabel   |               |     | S1Hand & S2IndexLabel   | LabelHand     |     |
+| S1Hand & JRCWaterHand    |     96.28     | 0.48 |                         |               |     |                         |               |     |
+| S2Hand & JRCWaterHand    |     96.50     | 0.48 |                         |               |     |                         |               |     |
+| S2Hand & LabelHand       |     75.60     | 0.38 |                         |               |     |                         |               |     |
+| S2Hand & S1OtsuLabelHand |               | 0.43 |                         |               |     |                         |               |     |
 
 
 <h3> 2. Random Forest - Feature Engineering </h3>
