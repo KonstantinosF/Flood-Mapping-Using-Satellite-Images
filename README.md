@@ -76,6 +76,18 @@ List of Hand Crafted Features:
    The median filter is a non-linear digital filtering technique, often used to remove noise from an image or signal. Median filtering is widely used in      digital image processing because it preserves edges while removing noise.
 - <b> Variance </b> </br>
 
+
+| Hand Labeled             |               |      | Weakly Labeled          |               |     |
+| ------------------------ | ------------- | ---- | ----------------------- | ------------- |---- |
+| Source & Labels          | Test Accuracy |  IoU | Source & Labels         | Test Accuracy | IOU |
+| ------------------------ |   ----------- | ---- | ----------------------- | ------------- | --- |
+| S1Hand & LabelHand       |               |      | S1Hand & S1OtsuLabelWeak|               |     |
+| S1Hand & S1OtsuLabelHand |               |      | S1Hand & S2IndexLabel   |               |     |
+| S1Hand & JRCWaterHand    |               |      |                         |               |     |
+| S2Hand & JRCWaterHand    |               |      |                         |               |     |
+| S2Hand & LabelHand       |               |      |                         |               |     |
+| S2Hand & S1OtsuLabelHand |               |      |                         |               |     |
+
 <h3> 3. Transfer Learning - VGG16 </h3>
 
 ![image](https://user-images.githubusercontent.com/23013328/166447610-df628514-8824-4641-8180-5eb4bd1c4e26.png)
