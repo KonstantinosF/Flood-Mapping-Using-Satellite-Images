@@ -105,7 +105,16 @@ Classification
 
 Now we want to use those patterns to classify our images to their correct label. This part of the network does exactly that job, it uses the inputs from the previous layers to find the best class to your matched patterns in the new image.
 
-
+| Hand Labeled             |               |      | Weakly Labeled          |               |     |
+| ------------------------ | ------------- | ---- | ----------------------- | ------------- |---- |
+| Source & Labels          | Test Accuracy |  IoU | Source & Labels         | Test Accuracy | IOU |
+| ------------------------ |   ----------- | ---- | ----------------------- | ------------- | --- |
+| S1Hand & LabelHand       |               |      | S1Hand & S1OtsuLabelWeak|               |     |
+| S1Hand & S1OtsuLabelHand |               |      | S1Hand & S2IndexLabel   |               |     |
+| S1Hand & JRCWaterHand    |               |      |                         |               |     |
+| S2Hand & JRCWaterHand    |               |      |                         |               |     |
+| S2Hand & LabelHand       |               |      |                         |               |     |
+| S2Hand & S1OtsuLabelHand |               |      |                         |               |     |
 
 
 Reference: https://towardsdatascience.com/transfer-learning-with-vgg16-and-keras-50ea161580b4
