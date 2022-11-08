@@ -53,7 +53,7 @@ U-Net is a convolutional neural network that was developed for biomedical image 
 | S2Hand & LabelHand       |     75.60     | 0.38 |                         |               |     |                         |               |     |
 | S2Hand & S1OtsuLabelHand |               | 0.43 |                         |               |     |                         |               |     |
 
-
+S2Hand & LabelHand = Test Loss ->58.17374587059021
 <h3> 2. Random Forest - Feature Engineering </h3>
 Feature based segmentation using Random Forest
 
