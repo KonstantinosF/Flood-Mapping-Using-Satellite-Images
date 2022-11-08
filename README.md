@@ -51,9 +51,11 @@ U-Net is a convolutional neural network that was developed for biomedical image 
 | S1Hand & JRCWaterHand    |     96.28     | 0.48 |                         |               |     |                         |               |     |
 | S2Hand & JRCWaterHand    |     96.50     | 0.48 |                         |               |     |                         |               |     |
 | S2Hand & LabelHand       |     75.60     | 0.38 |                         |               |     |                         |               |     |
-| S2Hand & S1OtsuLabelHand |               | 0.43 |                         |               |     |                         |               |     |
+| S2Hand & S1OtsuLabelHand |     90.08     | 0.45 |                         |               |     |                         |               |     |
 
 S2Hand & LabelHand = Test Loss ->58.17374587059021
+S2Hand & S1OtsuLabelHand = Test Loss ->36.47
+
 <h3> 2. Random Forest - Feature Engineering </h3>
 Feature based segmentation using Random Forest
 
