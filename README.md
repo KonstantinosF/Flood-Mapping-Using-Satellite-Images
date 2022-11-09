@@ -47,7 +47,7 @@ U-Net is a convolutional neural network that was developed for biomedical image 
 | Source & Labels          | Test Accuracy |  IoU | Source & Labels         | Test Accuracy | IOU | Trained On              | Tested on     | IOU |
 | ------------------------ |  ------------ | ---- | ----------------------- | ------------- | --- | ----------------------- | ------------- | --- |
 | S1Hand & LabelHand       |     78.25     | 0.38 | S1Weak & S1OtsuLabelWeak|    81.72      |40.86| S1Hand & S1OtsuLabelWeak| LabelHand     |     |
-| S1Hand & S1OtsuLabelHand |     88.4      | 0.38 | S1Weak & S2IndexLabel   |               |     | S1Hand & S2IndexLabel   | LabelHand     |     |
+| S1Hand & S1OtsuLabelHand |     88.4      | 0.38 | S1Weak & S2IndexLabelWea|    79.08      |39.54| S1Hand & S2IndexLabel   | LabelHand     |     |
 | S1Hand & JRCWaterHand    |     96.28     | 0.48 |                         |               |     |                         |               |     |
 | S2Hand & JRCWaterHand    |     96.50     | 0.48 |                         |               |     |                         |               |     |
 | S2Hand & LabelHand       |     75.60     | 0.38 |                         |               |     |                         |               |     |
@@ -56,6 +56,7 @@ U-Net is a convolutional neural network that was developed for biomedical image 
 S2Hand & LabelHand = Test Loss ->58.17374587059021
 S2Hand & S1OtsuLabelHand = Test Loss ->36.47
 S1Weak & S1OtsuLabelWeak = Test Loss-> 55.919 (444 samples , equaly from all classes, 37 samples per class)
+S1Weak & S2IndexLabelWea = Test Loss-> 51.810 (444 samples , equaly from all classes, 37 samples per class)
 
 <h3> 2. Random Forest - Feature Engineering </h3>
 Feature based segmentation using Random Forest
