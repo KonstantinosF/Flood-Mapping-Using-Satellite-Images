@@ -103,7 +103,7 @@ The Modified Normalized Difference Water Index (MNDWI) uses green and SWIR bands
 | Source & Labels          | Test Accuracy |  IoU | Source & Labels         | Test Accuracy | IOU |
 | ------------------------ |   ----------- | ---- | ----------------------- | ------------- | --- |
 | S1Hand & LabelHand       |   0.924       | 0.144| S1Hand & S1OtsuLabelWeak|               |     |
-| S1Hand & S1OtsuLabelHand |               |      | S1Hand & S2IndexLabel   |               |     |
+| S1Hand & S1OtsuLabelHand |   0.89        |0.1508| S1Hand & S2IndexLabel   |               |     |
 | S1Hand & JRCWaterHand    |               |      |                         |               |     |
 | S2Hand & JRCWaterHand    |               |      |                         |               |     |
 | S2Hand & LabelHand       |               |      |                         |               |     |
