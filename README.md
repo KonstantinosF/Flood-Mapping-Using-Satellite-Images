@@ -106,7 +106,7 @@ The Modified Normalized Difference Water Index (MNDWI) uses green and SWIR bands
 | S1Hand & S1OtsuLabelHand |   0.89        |0.1508| S1Hand & S2IndexLabel   |               |     |
 | S1Hand & JRCWaterHand    |   0.990       |0.1044|                         |               |     |
 | S2Hand & JRCWaterHand    |   0.9898      |0.0636|                         |               |     |
-| S2Hand & LabelHand       |               |      |                         |               |     |
+| S2Hand & LabelHand       | 0.93          |0.15  |                         |               |     |
 | S2Hand & S1OtsuLabelHand |               |      |                         |               |     |
 
 <h3> 3. Transfer Learning - VGG16 </h3>
