@@ -98,12 +98,12 @@ The Modified Normalized Difference Water Index (MNDWI) uses green and SWIR bands
 
 
 
-| Hand Labeled             |               |      | Weakly Labeled          |               |     |
-| ------------------------ | ------------- | ---- | ----------------------- | ------------- |---- |
-| Source & Labels          | Test Accuracy |  IoU | Source & Labels         | Test Accuracy | IOU |
-| ------------------------ |   ----------- | ---- | ----------------------- | ------------- | --- |
-| S1Hand & LabelHand       |   0.924       | 0.144| S1Weak & S1OtsuLabelWeak|               |     |
-| S1Hand & S1OtsuLabelHand |   0.89        |0.1508| S1Weak & S2IndexLabelWea|               |     |
+| Hand Labeled             |               |      | Weakly Labeled          |               |     | Weakly Supervised       |               |     |
+| ------------------------ | ------------- | ---- | ----------------------- | ------------- |---- | ----------------------- | ------------- | --- |
+| Source & Labels          | Test Accuracy |  IoU | Source & Labels         | Test Accuracy | IOU | Trained On              | Tested on     | IOU |
+| ------------------------ |   ----------- | ---- | ----------------------- | ------------- | --- | ----------------------- | ------------- | --- |
+| S1Hand & LabelHand       |   0.924       | 0.144| S1Weak & S1OtsuLabelWeak|               |     | S1Hand & S1OtsuLabelWeak| LabelHand     |     |
+| S1Hand & S1OtsuLabelHand |   0.89        |0.1508| S1Weak & S2IndexLabelWea|               |     | S1Hand & S2IndexLabel   | LabelHand     |     |
 | S1Hand & JRCWaterHand    |   0.990       |0.1044|                         |               |     |
 | S2Hand & JRCWaterHand    |   0.9898      |0.0636|                         |               |     |
 | S2Hand & LabelHand       | 0.93          |0.15  |                         |               |     |
