@@ -62,20 +62,9 @@ S1Weak & S2IndexLabelWea = Test Loss-> 51.810 (444 samples , equaly from all cla
 Feature based segmentation using Random Forest
 
 List of Hand Crafted Features:
-
-- <b> Gabor Filter </b> </br>
-  <p> In image processing, a Gabor filter, is a linear filter used for texture analysis, which essentially means that it analyzes whether there is any           specific frequency content in the image in specific directions in a localized region around the point or region of analysis. </p>
   
 - <b> Roberts Cross </b> </br>
   <p> The Roberts cross operator is used for edge detection. As a differential operator, the idea behind the Roberts cross operator is to approximate the       gradient of an image through discrete differentiation which is achieved by computing the sum of the squares of the differences between diagonally         adjacent pixels. </p>
-- <b> Sobel Filter </b> </br>
-  <p> The Sobel operator is used in image processing and computer vision, particularly within edge detection algorithms where it creates an image                emphasising edges.</p>
-- <b> Scharr Filter </b> </br>
-  <p> Scharr is also used to detect the second derivatives of an image in horizontal and vertical directions. </p>
-- <b> PREWITT </b> <br/>
-  <p> The Prewitt operator is used in image processing, particularly within edge detection algorithms. Technically, it is a discrete differentiation             operator, computing an approximation of the gradient of the image intensity function. The Prewitt operator is based on convolving the image with a         small, separable, and integer valued filter in horizontal and vertical directions and is therefore relatively inexpensive in terms of computations         like Sobel and Kayyali </p>
-- <b> Gaussian </b> </br>
-  <p> Gaussian filter is a filter whose impulse response is a Gaussian function or an approximation to it. Gaussian filters have the properties of having       no overshoot to a step function input while minimizing the rise and fall time. </p>
 - <b> Median </b> </br>
    The median filter is a non-linear digital filtering technique, often used to remove noise from an image or signal. Median filtering is widely used in      digital image processing because it preserves edges while removing noise.
 - <b> Variance </b> </br>
