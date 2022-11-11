@@ -112,12 +112,12 @@ Classification
 
 Now we want to use those patterns to classify our images to their correct label. This part of the network does exactly that job, it uses the inputs from the previous layers to find the best class to your matched patterns in the new image.
 
-| Hand Labeled             |               |      | Weakly Labeled          |               |     |
-| ------------------------ | ------------- | ---- | ----------------------- | ------------- |---- |
-| Source & Labels          | Test Accuracy |  IoU | Source & Labels         | Test Accuracy | IOU |
-| ------------------------ |   ----------- | ---- | ----------------------- | ------------- | --- |
-| S1Hand & LabelHand       |               |      | S1Hand & S1OtsuLabelWeak|               |     |
-| S1Hand & S1OtsuLabelHand |               |      | S1Weak & S2IndexLabelWea|               |     |
+| Hand Labeled             |               |      | Weakly Labeled          |               |     | Weakly Supervised       |               |     |
+| ------------------------ | ------------- | ---- | ----------------------- | ------------- |---- | ----------------------- | ------------- | --- |
+| Source & Labels          | Test Accuracy |  IoU | Source & Labels         | Test Accuracy | IOU | Trained On              | Tested on     | IOU |
+| ------------------------ |   ----------- | ---- | ----------------------- | ------------- | --- | ----------------------- | ------------- | --- |
+| S1Hand & LabelHand       |               |      | S1Hand & S1OtsuLabelWeak|               |     | S1Hand & S1OtsuLabelWeak| LabelHand     |     |
+| S1Hand & S1OtsuLabelHand |               |      | S1Weak & S2IndexLabelWea|               |     | S1Hand & S2IndexLabel   | LabelHand     |     |
 | S1Hand & JRCWaterHand    |               |      |                         |               |     |
 | S2Hand & JRCWaterHand    |               |      |                         |               |     |
 | S2Hand & LabelHand       |               |      |                         |               |     |
