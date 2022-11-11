@@ -1,6 +1,16 @@
 # Flood-Mapping-Using-Satellite-Images
 MSc Thesis - Data Science - UoP &amp; NCSR "Demokritos"
 
+<h2> Download The Dataset </h2>
+Visit the following link:
+https://mlhub.earth/data/c2smsfloods_v1 (you need to create an account first)
+
+The dataset is available for access through Google Cloud Storage bucket at: gs://senfloods11/
+
+You can access the dataset bucket using the gsutil command line tool. If you would like to download the entire dataset (~14 GB) you can use gsutil rsync to clone the bucket to a local directory. The -m flag is recommended to speed downloads. The -r flag will download sub-directories and folder recursively. See the example below.
+
+$ gsutil -m rsync -r gs://sen1floods11 /YOUR/LOCAL/DIRECTORY/HERE
+
 The dataset used is named as <b>Sen1Floods11</b> and it is comprised with Sentinel 1 & 2 images with the corresponding ground truth masks. The dataset contains two main folders (<b>flood_events & perm_water</b>) as shown below:
 
 ![Capture](https://user-images.githubusercontent.com/23013328/156328362-d9ed2228-bd20-4d75-b254-711b1da30d08.PNG)
