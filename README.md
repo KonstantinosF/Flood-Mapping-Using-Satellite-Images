@@ -53,9 +53,9 @@ After visualy checking the dataset with manually loading several image patches o
 Bellow is an illustration of a sentinel 2 image tile blocked with clouds and the corresponding sentinel 1 tile and the label from it.
 
 <p float="left">
-  <img src="./imgs/s2.png" width="100" />
-  <img src="./imgs/s1.png" width="100" /> 
-  <img src="./imgs/label.png" width="100" />
+  <img src="./imgs/s2.png" width="200" />
+  <img src="./imgs/s1.png" width="200" /> 
+  <img src="./imgs/label.png" width="200" />
 </p>
 
 <h2> Experiments  </h2>
