@@ -57,7 +57,7 @@ Bellow is an illustration of a sentinel 2 image tile blocked with clouds and the
 
 Sentinel 2                 |  Sentinel 1               | Label based on Sentinel 1 |
 :-------------------------:|:-------------------------:---------------------------      
-![Screenshot 2022-11-14 at 11 36 18](https://user-images.githubusercontent.com/23013328/201641135-f8a8ee3a-9b2f-4b0b-a04b-94f620c0a27a.png)                    |                           |
+                           |                           |                           |
 
 
 
