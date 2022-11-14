@@ -50,16 +50,18 @@ This subfolder contains one folder <b> S1Hand</b> which consists of sentinel 1 i
 
 After visualy checking the dataset with manually loading several image patches on a free and open Geographic Information System software called <a href="https://www.qgis.org/en/site/">QGIS</a>, we noticed that many images do not contain pixels with flood. Additionally we saw that many sentinel 2 images are majored covered with clouds which makes them useless.
 
+Bellow is an illustration of a sentinel 2 image tile blocked with clouds and the corresponding sentinel 1 tile and the label from it.
+
 <p float="left">
-  <img src="./imgs/s2.png" width="4" />
-  <img src="./imgs/s1.png" width="4" /> 
-  <img src="./imgs/label.png" width="4" />
+  <img src="./imgs/s2.png" width="10" />
+  <img src="./imgs/s1.png" width="10" /> 
+  <img src="./imgs/label.png" width="10" />
 </p>
 
 <h2> Experiments  </h2>
 Experiments were splited into three parts, with each one based on a different semantic segmentation scheme. The first one is based on a RAndom Forest architecture and a set of hand crafted features, the second is based on the concept of transfer learning while the last on is based on a U-NET fully convolutional neural network. Furthermote in order to create a set of sentinel 2 and sentinel 1 datasets which will be comparable we decided to remove the image tiles with at least one pixel of clouds...Since sentinel 1 labels do not have the label -1 (clouds). ...to be able to create a multi-modal dataset.
 
-Bellow is an illustration of a sentinel 2 image tile blocked with clouds and the corresponding sentinel 1 tile and the label from it.
+
 
 <h3>1. U-NET </h3>
 <p align="center">
