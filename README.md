@@ -54,9 +54,6 @@ After visualy checking the dataset with manually loading several image patches o
 Experiments were splited into three parts, with each one based on a different semantic segmentation scheme. The first one is based on a RAndom Forest architecture and a set of hand crafted features, the second is based on the concept of transfer learning while the last on is based on a U-NET fully convolutional neural network. Furthermote in order to create a set of sentinel 2 and sentinel 1 datasets which will be comparable we decided to remove the image tiles with at least one pixel of clouds...Since sentinel 1 labels do not have the label -1 (clouds). ...to be able to create a multi-modal dataset.
 
 Bellow is an illustration of a sentinel 2 image tile blocked with clouds and the corresponding sentinel 1 tile and the label from it.
-                           
-
-<img src=![Screenshot 2022-11-14 at 11 36 18](https://user-images.githubusercontent.com/23013328/201641727-94e0b48e-43cf-431e-83ca-9114a843e1a5.png) width="4"/> <img src=![Screenshot 2022-11-14 at 12 44 44](https://user-images.githubusercontent.com/23013328/201641810-c2f89d51-b7c6-4870-9e73-eb79a195a595.png) width="4"/> <img src=![Screenshot 2022-11-14 at 12 36 57](https://user-images.githubusercontent.com/23013328/201641851-0ec6b169-e6a7-4018-b7b3-8d676161dddb.png) width="4"/> 
 
 <h3>1. U-NET </h3>
 <p align="center">
