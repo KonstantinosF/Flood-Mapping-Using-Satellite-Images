@@ -55,13 +55,8 @@ Experiments were splited into three parts, with each one based on a different se
 
 Bellow is an illustration of a sentinel 2 image tile blocked with clouds and the corresponding sentinel 1 tile and the label from it.
                            
-<p float="left">
-  <img src=![Screenshot 2022-11-14 at 11 36 18](https://user-images.githubusercontent.com/23013328/201641727-94e0b48e-43cf-431e-83ca-9114a843e1a5.png) width="2" />
-  <img src=![Screenshot 2022-11-14 at 12 44 44](https://user-images.githubusercontent.com/23013328/201641810-c2f89d51-b7c6-4870-9e73-eb79a195a595.png) width="2" /> 
-  <img src=![Screenshot 2022-11-14 at 12 36 57](https://user-images.githubusercontent.com/23013328/201641851-0ec6b169-e6a7-4018-b7b3-8d676161dddb.png) width="2" />
-</p>
 
-<img src=![Screenshot 2022-11-14 at 11 36 18](https://user-images.githubusercontent.com/23013328/201641727-94e0b48e-43cf-431e-83ca-9114a843e1a5.png) width="425"/> <img src=![Screenshot 2022-11-14 at 12 44 44](https://user-images.githubusercontent.com/23013328/201641810-c2f89d51-b7c6-4870-9e73-eb79a195a595.png) width="425"/> <img src=![Screenshot 2022-11-14 at 12 36 57](https://user-images.githubusercontent.com/23013328/201641851-0ec6b169-e6a7-4018-b7b3-8d676161dddb.png) width="425"/> 
+<img src=![Screenshot 2022-11-14 at 11 36 18](https://user-images.githubusercontent.com/23013328/201641727-94e0b48e-43cf-431e-83ca-9114a843e1a5.png) width="4"/> <img src=![Screenshot 2022-11-14 at 12 44 44](https://user-images.githubusercontent.com/23013328/201641810-c2f89d51-b7c6-4870-9e73-eb79a195a595.png) width="4"/> <img src=![Screenshot 2022-11-14 at 12 36 57](https://user-images.githubusercontent.com/23013328/201641851-0ec6b169-e6a7-4018-b7b3-8d676161dddb.png) width="4"/> 
 
 <h3>1. U-NET </h3>
 <p align="center">
