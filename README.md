@@ -46,7 +46,7 @@ This subfolder contains one folder <b> S1Hand</b> which consists of sentinel 1 i
 
 ![Screenshot 2022-03-01 at 22 28 50](https://user-images.githubusercontent.com/23013328/156243919-c9205e31-730b-42f1-ab17-27a27661b341.png)
 
-<h2> Clean the Dataset </h2>
+<h2> Clean the Dataset - Pre Process </h2>
 
 <h2> Experiments  </h2>
 
