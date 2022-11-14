@@ -2,8 +2,9 @@
 MSc Thesis - Data Science - UoP &amp; NCSR "Demokritos"
 
 <h2> Download The Dataset </h2>
-Visit the following link:
-https://mlhub.earth/data/c2smsfloods_v1 (you need to create an account first)
+- First Option:
+  Visit the following link: <br>
+  https://mlhub.earth/data/c2smsfloods_v1 (you need to create an account first)
 
 The dataset is available for access through Google Cloud Storage bucket at: gs://senfloods11/
 
