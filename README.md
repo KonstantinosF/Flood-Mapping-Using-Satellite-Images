@@ -51,9 +51,9 @@ This subfolder contains one folder <b> S1Hand</b> which consists of sentinel 1 i
 After visualy checking the dataset with manually loading several image patches on a free and open Geographic Information System software called <a href="https://www.qgis.org/en/site/">QGIS</a>, we noticed that many images do not contain pixels with flood. Additionally we saw that many sentinel 2 images are majored covered with clouds which makes them useless.
 
 <p float="left">
-  <img src="imgs/s2.png" width="2" />
-  <img src="imgs/s1.png" width="2" /> 
-  <img src="imgs/label.png" width="2" />
+  <img src="./imgs/s2.png" width="4" />
+  <img src="./imgs/s1.png" width="4" /> 
+  <img src="./imgs/label.png" width="4" />
 </p>
 
 <h2> Experiments  </h2>
