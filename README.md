@@ -48,6 +48,8 @@ This subfolder contains one folder <b> S1Hand</b> which consists of sentinel 1 i
 
 <h2> Clean the Dataset - Pre Process </h2>
 
+After visualy checking the dataset with manually loading several image patches on a free and open GIS software called QGIS, we noticed that many images do not contain pixels with flood. Additionally we saw that many sentinel 2 images are majored covered with clouds which makes them useless.
+
 <h2> Experiments  </h2>
 
 <h3>1. U-NET </h3>
