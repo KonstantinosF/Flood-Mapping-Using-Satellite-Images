@@ -51,6 +51,7 @@ This subfolder contains one folder <b> S1Hand</b> which consists of sentinel 1 i
 After visualy checking the dataset with manually loading several image patches on a free and open GIS software called QGIS, we noticed that many images do not contain pixels with flood. Additionally we saw that many sentinel 2 images are majored covered with clouds which makes them useless.
 
 <h2> Experiments  </h2>
+Experiments were splited into three parts, with each one based on a different semantic segmentation scheme. The first one is based on a RAndom Forest architecture and a set of hand crafted features, the second is based on the concept of transfer learning while the last on is based on a U-NET fully convolutional neural network.
 
 <h3>1. U-NET </h3>
 <p align="center">
