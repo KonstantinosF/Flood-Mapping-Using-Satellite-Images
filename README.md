@@ -58,7 +58,9 @@ Bellow is an illustration of a sentinel 2 image tile blocked with clouds and the
   <img src="./imgs/label.png" width="200" />
 </p>
 
-Furthermote in order to create a set of sentinel 2 and sentinel 1 datasets which will be comparable we decided to remove the image tiles with at least one pixel of clouds...Since sentinel 1 labels do not have the label -1 (clouds). ...to be able to create a multi-modal dataset.
+Furthermote in order to create a set of sentinel 2 and sentinel 1 datasets which will be comparable we decided to remove the image tiles with at least one pixel of clouds...Since sentinel 1 labels do not have the label -1 (clouds). ...to be able to create a multi-modal dataset. It was decided that the labeling dataset JRCWaterHand will not be used since it doesn't cover floods but permanent waters.
+
+The initial image tiles of 512x512 size were splited into patches of 128x128. So from each itinial image 16 patches were created. 
 
 <h2> Experiments  </h2>
 Experiments were splited into three parts, with each one based on a different semantic segmentation scheme. The first one is based on a RAndom Forest architecture and a set of hand crafted features, the second is based on the concept of transfer learning while the last on is based on a U-NET fully convolutional neural network. 
