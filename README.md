@@ -58,6 +58,13 @@ Bellow is an illustration of a sentinel 2 image tile blocked with clouds and the
   <img src="./imgs/label.png" width="200" />
 </p>
 
+Additionaly some images are appeared to be acquired as "half" with this part of the image to be labeled as (-1) the same as the clouds.
+
+<p float="left">
+  <img src="./imgs/S2_half.png" width="200" />
+  <img src="./imgs/Label_half.png" width="200" /> 
+</p>
+
 Furthermote in order to create a set of sentinel 2 and sentinel 1 datasets which will be comparable we decided to remove the image tiles with at least one pixel of clouds...Since sentinel 1 labels do not have the label -1 (clouds). ...to be able to create a multi-modal dataset. It was decided that the labeling dataset JRCWaterHand will not be used since it doesn't cover floods but permanent waters.
 
 The initial image tiles of 512x512 size were splited into patches of 128x128. So from each itinial image 16 patches were created. 
