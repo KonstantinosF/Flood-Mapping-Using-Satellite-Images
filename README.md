@@ -69,6 +69,8 @@ Furthermote in order to create a set of sentinel 2 and sentinel 1 datasets which
 
 The initial image tiles of 512x512 size were splited into patches of 128x128. So from each itinial image 16 patches were created. In a google colab environment it took 8 to 10 hours to finish.
 
+After spliting the intial images, we resulted into 7136 128x128 image patches for S1Hand,S2Hand, LabelHand and S1OtsuLabelHand. From these we identified the patches with only (-1) label and deleted them. After this proccess we ended up with XXX. patches
+
 <h2> Experiments  </h2>
 Experiments were splited into three parts, with each one based on a different semantic segmentation scheme. The first one is based on a RAndom Forest architecture and a set of hand crafted features, the second is based on the concept of transfer learning while the last on is based on a U-NET fully convolutional neural network. 
 
