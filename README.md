@@ -69,7 +69,21 @@ Furthermote in order to create a set of sentinel 2 and sentinel 1 datasets which
 
 The initial image tiles of 512x512 size were splited into patches of 128x128. So from each itinial image 16 patches were created. In a google colab environment it took 8 to 10 hours to finish.
 
-After spliting the intial images, we resulted into 7136 128x128 image patches for S1Hand,S2Hand, LabelHand and S1OtsuLabelHand. From these we identified the patches with only (-1) label and deleted them. After this proccess we ended up with XXX. patches
+After spliting the intial images, we resulted into 7136 128x128 image patches for S1Hand,S2Hand, LabelHand and S1OtsuLabelHand. From these we identified the patches with only (-1) label and deleted them. After this proccess we ended up with 6825 patches.
+
+Bolivia new: 231
+Ghana new: 650
+India new: 1068
+Mekong new: 479
+Nigeria new: 282
+Pakistan new: 417
+Paraguay new: 1055
+Somalia new: 414
+Spain new: 478
+Sri-Lanka new: 663
+USA new: 1088
+![image](https://user-images.githubusercontent.com/23013328/203274402-ca9dcecc-fd6c-4255-b6cc-f9c39295b792.png)
+
 
 <h2> Experiments  </h2>
 Experiments were splited into three parts, with each one based on a different semantic segmentation scheme. The first one is based on a RAndom Forest architecture and a set of hand crafted features, the second is based on the concept of transfer learning while the last on is based on a U-NET fully convolutional neural network. 
