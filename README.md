@@ -85,6 +85,9 @@ USA new: 1088
 ![image](https://user-images.githubusercontent.com/23013328/203274402-ca9dcecc-fd6c-4255-b6cc-f9c39295b792.png)
 
 
+The link for the new dataset: https://uopel-my.sharepoint.com/:f:/g/personal/dit2025dsc_office365_uop_gr/EomiPN1R1GNMuYLDtHBQgaoBVZ1GBJ-Xfo8xGmuSfAh2Ug?e=wKLRmL
+
+
 <h2> Experiments  </h2>
 Experiments were splited into three parts, with each one based on a different semantic segmentation scheme. The first one is based on a RAndom Forest architecture and a set of hand crafted features, the second is based on the concept of transfer learning while the last on is based on a U-NET fully convolutional neural network. 
 
