@@ -152,24 +152,27 @@ The Modified Normalized Difference Water Index (MNDWI) uses green and SWIR bands
     MNDWI = (B3 - B11) / (B3 + B11)
 
 ## Single-Modal
-| Hand Labeled             |               |      | Weakly Labeled          |               |     | 
-| ------------------------ | ------------- | ---- | ----------------------- | ------------- | --- | 
-| Source & Labels          | Test Accuracy |  IoU | Source & Labels         | Test Accuracy | IOU | 
-| ------------------------ |  ------------ | ---- | ----------------------- | ------------- | --- | 
-| S1Hand & S1OtsuLabelHand |               |      | S1Weak & S1OtsuLabelWeak|               |.    | 
-| S2Hand & LabelHand       |               |      |                         |               |     | 
+| Hand Labeled             |               |      |
+| ------------------------ | ------------- | ---- | 
+| Source & Labels          | Test Accuracy |  IoU | 
+| ------------------------ |  ------------ | ---- | 
+| S1Hand & S1OtsuLabelHand |               |      | 
+| S2Hand & LabelHand       |               |      |    
 
-|Weakly Supervised        |                 |     |.    |     |    |
-|-----------------------  |  -------------  | --- | --- | --- |--- |
-| Trained On              |  Tested on      | IOU | Acc | Pre | F1 | 
-| ----------------------- |  -------------  | --- | --- |---  | ---|
-| S1Hand & S1OtsuLabelWeak| S1OtsuLabelHand |     |50.59|     |.   |
+
+|Weakly Labeled           | -----------------------------|
+|-----------------------  | --- | --- | --- | --- |------|
+| Source & Labels         | IOU | Acc | Pre | F1  |Recall|
+| ----------------------- | --- | --- |---  | --- |------|
+| S1Hand & S1OtsuLabelWeak|0.28 |51.19|49.14|43.15|38.45 |
+
+
+|Weakly Supervised        |                 | -----------------------------|
+|-----------------------  |  -------------  | --- | --- | --- | --- |------|
+| Trained On              |  Tested on      | IOU | Acc | Pre | F1  |Recall|
+| ----------------------- |  -------------  | --- | --- |---  | --- |------|
+| S1Hand & S1OtsuLabelWeak| S1OtsuLabelHand | 0.27|50.59|47.76|41.89|37.30 |
                    
-Accuracy =  0.5059182945529138
-IOU =  0.2649293773774379
-Precision =  0.47764537845597554
-Recall =  0.372996902460749
-F1 score =  0.418884061221999
 
 
 ## OLD
