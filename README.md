@@ -23,7 +23,7 @@ The dataset used is named as <b>Sen1Floods11</b> and it is comprised with Sentin
 In this study we are only using the images included on the <b>Flooed Events</b> folder and eliminate the permanent water images. The <b>flood_events</b> folder is further splitted into 2 subfolders as shown in the image below:
 
 <p float="left">
-  <img src="./imgs/Folder1.png" width="500" />
+  <img src="./imgs/Folder1.png" width="600" />
 </p>
 
 
