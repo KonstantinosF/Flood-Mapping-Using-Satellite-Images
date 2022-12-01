@@ -97,7 +97,7 @@ USA new: 1088
 
 
 <h3> Weakly Labeled </h3>
-
+The initial total number of images were 4384. We split each image into 16 patches of a size 128x128 pixels, resulting in 70144 patches in ttoal. From these we remove the patches having at least one pixel labeled as (-1), patches were the number of flooded pixels were more than 50% than the background pixels and patches with with background pixels more than 50% of the flooded pixels, reuslting in a dataset comprised of 6835 patches. Since the number of patches were still very high and not easy to handle we kept only the first 50 patches from each geographic area, resulting in 600 patches in total.
 
 The link for the new dataset: https://uopel-my.sharepoint.com/:f:/g/personal/dit2025dsc_office365_uop_gr/EomiPN1R1GNMuYLDtHBQgaoBVZ1GBJ-Xfo8xGmuSfAh2Ug?e=wKLRmL
 
