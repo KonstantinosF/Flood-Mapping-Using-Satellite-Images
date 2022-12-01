@@ -22,7 +22,10 @@ The dataset used is named as <b>Sen1Floods11</b> and it is comprised with Sentin
 
 In this study we are only using the images included on the <b>Flooed Events</b> folder and eliminate the permanent water images. The <b>flood_events</b> folder is further splitted into 2 subfolders as shown in the image below:
 
-![image](https://user-images.githubusercontent.com/23013328/159184483-b63def56-2d9c-46c4-9920-2439ee44d705.png)
+<p float="left">
+  <img src="./imgs/Folder1.png" width="500" />
+</p>
+
 
 The <b> HandLabeled </b> subfolder is splitted into 6 subfolders as shown in the image below:
 
