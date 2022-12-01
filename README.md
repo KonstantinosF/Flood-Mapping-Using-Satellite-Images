@@ -18,13 +18,13 @@ MSc Thesis - Data Science - UoP &amp; NCSR "Demokritos"
 
 The dataset used is named as <b>Sen1Floods11</b> and it is comprised with Sentinel 1 & 2 images with the corresponding ground truth masks. The dataset contains two main folders (<b>flood_events & perm_water</b>) as shown below:
 
-![Capture](https://user-images.githubusercontent.com/23013328/156328362-d9ed2228-bd20-4d75-b254-711b1da30d08.PNG)
+<p float="left">
+  <img src="./imgs/Folder1.png" width="650" />
+</p>
 
 In this study we are only using the images included on the <b>Flooed Events</b> folder and eliminate the permanent water images. The <b>flood_events</b> folder is further splitted into 2 subfolders as shown in the image below:
 
-<p float="left">
-  <img src="./imgs/Folder1.png" width="600" />
-</p>
+
 
 
 The <b> HandLabeled </b> subfolder is splitted into 6 subfolders as shown in the image below:
