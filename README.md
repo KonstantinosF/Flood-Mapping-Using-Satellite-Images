@@ -29,13 +29,11 @@ In this study we are only using the images included on the <b>Flood Events</b> f
 </p>
 
 
-The <b> HandLabeled </b> subfolder is splitted into 6 subfolders as shown in the image below:
+The <b> HandLabeled </b> subfolder is splitted into 5 subfolders from which we are not using the "JRCWaterHand".
 
 <p float="left">
   <img src="./imgs/Folder3.png" width="650" />
 </p>
-
-![Capture2](https://user-images.githubusercontent.com/23013328/156328879-6268e602-c81c-4275-8ae4-7d4085baf820.PNG)
 
 While the <b>WeaklyLabeled</b> folder is splitted into 3.
 
