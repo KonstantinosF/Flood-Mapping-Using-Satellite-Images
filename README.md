@@ -60,7 +60,7 @@ As can be seen the size of the Weakly labeled dataset is much larger thant the h
 <h2> Clean the Dataset - Pre Process </h2>
 <h3> Hand Labeled </h3>
 
-After visualy checking the dataset with manually loading several image patches on a free and open Geographic Information System software called <a href="https://www.qgis.org/en/site/">QGIS</a>, we noticed that many images do not contain pixels with flood. Additionally we saw that many sentinel 2 images are majored covered with clouds which makes them useless.
+<p center="left"> After visualy checking the dataset with manually loading several image patches on a free and open Geographic Information System software called <a href="https://www.qgis.org/en/site/">QGIS</a>, we noticed that many images do not contain pixels with flood. Additionally we saw that many sentinel 2 images are majored covered with clouds which makes them useless.</p>
 
 Bellow is an illustration of a sentinel 2 image tile blocked with clouds and the corresponding sentinel 1 tile and the respective label.
 
