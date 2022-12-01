@@ -121,7 +121,7 @@ U-Net is a convolutional neural network that was developed for biomedical image 
 | ------------------------ |  ------------ | ---- | ----------------------- | ------------- | --- | ----------------------- | ------------- | --- |
 | S1Hand & S1OtsuLabelHand |               |      | S1Weak & S1OtsuLabelWeak|               |.    | S1Hand & S1OtsuLabelWeak|S1OtsuLabelHand|     |
 | S2Hand & LabelHand       |               |      |                         |               |     |                         |               |     |
-| S2Hand & LabelHand       |               |      |                         |               |     |                         |               |     |
+
 
 
 <h3> 2. Random Forest - Feature Engineering </h3>
@@ -151,8 +151,28 @@ The Modified Normalized Difference Water Index (MNDWI) uses green and SWIR bands
 
     MNDWI = (B3 - B11) / (B3 + B11)
 
+## Single-Modal
+| Hand Labeled             |               |      | Weakly Labeled          |               |     | 
+| ------------------------ | ------------- | ---- | ----------------------- | ------------- | --- | 
+| Source & Labels          | Test Accuracy |  IoU | Source & Labels         | Test Accuracy | IOU | 
+| ------------------------ |  ------------ | ---- | ----------------------- | ------------- | --- | 
+| S1Hand & S1OtsuLabelHand |               |      | S1Weak & S1OtsuLabelWeak|               |.    | 
+| S2Hand & LabelHand       |               |      |                         |               |     | 
+
+|Weakly Supervised        |                 |     |.               |
+ -----------------------  |  -------------  | --- | --- | --- |--- |
+| Trained On              |  Tested on      | IOU | Acc | Pre | F1 | 
+| ----------------------- |  -------------  | --- | --- |---  | ---|
+| S1Hand & S1OtsuLabelWeak| S1OtsuLabelHand |     |50.59|     |.   |
+                   
+Accuracy =  0.5059182945529138
+IOU =  0.2649293773774379
+Precision =  0.47764537845597554
+Recall =  0.372996902460749
+F1 score =  0.418884061221999
 
 
+## OLD
 | Hand Labeled             |               |      | Weakly Labeled          |               |     | Weakly Supervised       |               |     |
 | ------------------------ | ------------- | ---- | ----------------------- | ------------- |---- | ----------------------- | ------------- | --- |
 | Source & Labels          | Test Accuracy |  IoU | Source & Labels         | Test Accuracy | IOU | Trained On              | Tested on     | IOU |
