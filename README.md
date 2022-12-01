@@ -44,7 +44,7 @@ This subfolder contains one folder <b> S1Hand</b> which consists of sentinel 1 i
 <h3> Weakly Labeled </h3>
 
 <p float="left">
-  <img src="./WeaklyLabeledTable.png" width="200" />
+  <img src="./imgs/WeaklyLabeledTable.png" width="200" />
 </p>
 As can be seen the size of the Weakly labeled dataset is much larger thant the hand labeled one.
 
