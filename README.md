@@ -100,9 +100,8 @@ The link for the new dataset: https://uopel-my.sharepoint.com/:f:/g/personal/dit
 
 
 <h2> Experiments  </h2>
-Experiments were splited into three parts, with each one based on a different semantic segmentation scheme. The first one is based on a RAndom Forest architecture and a set of hand crafted features, the second is based on the concept of transfer learning while the last on is based on a U-NET fully convolutional neural network. 
+Experiments were splited into three parts, with each one based on a different semantic segmentation scheme. The first one is based on a Random Forest architecture and a set of hand crafted features, the second is based on the concept of transfer learning while the last on is based on a U-NET fully convolutional neural network. 
 
-<h3>0. MNDWI and Otsu Thresholding - Baseline model </h3>
 <p align="center">
 
 <h3>1. U-NET </h3>
