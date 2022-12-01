@@ -58,7 +58,7 @@ This subfolder contains one folder <b> S1Hand</b> which consists of sentinel 1 i
 As can be seen the size of the Weakly labeled dataset is much larger thant the hand labeled one.
 
 <h2> Clean the Dataset - Pre Process </h2>
-
+<h3> Hand Labeled </h3>
 After visualy checking the dataset with manually loading several image patches on a free and open Geographic Information System software called <a href="https://www.qgis.org/en/site/">QGIS</a>, we noticed that many images do not contain pixels with flood. Additionally we saw that many sentinel 2 images are majored covered with clouds which makes them useless.
 
 Bellow is an illustration of a sentinel 2 image tile blocked with clouds and the corresponding sentinel 1 tile and the label from it...of the same area.
@@ -94,6 +94,9 @@ Spain new: 478
 Sri-Lanka new: 663
 USA new: 1088
 ![image](https://user-images.githubusercontent.com/23013328/203274402-ca9dcecc-fd6c-4255-b6cc-f9c39295b792.png)
+
+
+<h3> Weakly Labeled </h3>
 
 
 The link for the new dataset: https://uopel-my.sharepoint.com/:f:/g/personal/dit2025dsc_office365_uop_gr/EomiPN1R1GNMuYLDtHBQgaoBVZ1GBJ-Xfo8xGmuSfAh2Ug?e=wKLRmL
