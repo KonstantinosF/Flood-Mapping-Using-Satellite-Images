@@ -43,8 +43,10 @@ This subfolder contains one folder <b> S1Hand</b> which consists of sentinel 1 i
 
 <h3> Weakly Labeled </h3>
 
-
-![Screenshot 2022-03-01 at 22 28 50](https://user-images.githubusercontent.com/23013328/156243919-c9205e31-730b-42f1-ab17-27a27661b341.png)
+<p float="left">
+  <img src="./WeaklyLabeledTable.png" width="200" />
+</p>
+As can be seen the size of the Weakly labeled dataset is much larger thant the hand labeled one.
 
 <h2> Clean the Dataset - Pre Process </h2>
 
