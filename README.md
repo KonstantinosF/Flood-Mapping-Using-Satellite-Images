@@ -22,9 +22,11 @@ The dataset used is named as <b>Sen1Floods11</b> and it is comprised with Sentin
   <img src="./imgs/Folder1.png" width="650" />
 </p>
 
-In this study we are only using the images included on the <b>Flooed Events</b> folder and eliminate the permanent water images. The <b>flood_events</b> folder is further splitted into 2 subfolders as shown in the image below:
+In this study we are only using the images included on the <b>Flood Events</b> folder and eliminate the permanent water images. The <b>flood_events</b> folder is further splitted into 2 subfolders as shown in the image below:
 
-
+<p float="left">
+  <img src="./imgs/Folder2.png" width="650" />
+</p>
 
 
 The <b> HandLabeled </b> subfolder is splitted into 6 subfolders as shown in the image below:
