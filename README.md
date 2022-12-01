@@ -35,7 +35,7 @@ The <b> HandLabeled </b> subfolder is splitted into 5 subfolders from which we a
   <img src="./imgs/Folder3.png" width="650" />
 </p>
 
-While the <b>WeaklyLabeled</b> folder is splitted into 3.
+While the <b>WeaklyLabeled</b> folder is splitted into 3 from which we are not using the "S2IndexLabelWeak".
 
 ![image](https://user-images.githubusercontent.com/23013328/158182582-fd4a76e3-9842-4221-a285-e02dcad35e28.png)
 
