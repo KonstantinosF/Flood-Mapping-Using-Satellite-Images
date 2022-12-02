@@ -136,20 +136,22 @@ List of Hand Crafted Features:
 - <b> Median </b> </br>
    The median filter is a non-linear digital filtering technique, often used to remove noise from an image or signal. Median filtering is widely used in      digital image processing because it preserves edges while removing noise.
 - <b> Variance </b> </br>
+
+
 - <b> NDVI </b> </br>
-<p center="left"> The Normalized Difference Vegetation Index (NDVI) was created with the aim of separating vegetation from soil brightness. The range of values ​​is from -1 to +1 with 0 expressing the absence of vegetation while negative values ​​describe land covers such as water, man-made structures, etc. More specifically, values close to zero (-0.1 to 0.1) generally correspond to barren areas of rock, sand, or snow. Low, positive values represent shrub and grassland (approximately 0.2 to 0.4), while high values indicate temperate and tropical rainforests (values approaching 1). NDVI is calculated as (NIR - RED) / (NIR + RED) </p>
+The Normalized Difference Vegetation Index (NDVI) was created with the aim of separating vegetation from soil brightness. The range of values ​​is from -1 to +1 with 0 expressing the absence of vegetation while negative values ​​describe land covers such as water, man-made structures, etc. More specifically, values close to zero (-0.1 to 0.1) generally correspond to barren areas of rock, sand, or snow. Low, positive values represent shrub and grassland (approximately 0.2 to 0.4), while high values indicate temperate and tropical rainforests (values approaching 1). NDVI is calculated as (NIR - RED) / (NIR + RED).
 
 
 - <b> MNDWI </b> </br>
-The Modified Normalized Difference Water Index (MNDWI) uses green and SWIR bands for the enhancement of open water features. It also diminishes built-up area features that are often correlated with open water in other indices. The modified NDWI (MNDWI) can enhance open water features while efficiently suppressing and even removing built‐up land noise as well as vegetation and soil noise. The enhanced water information using the NDWI is often mixed with built‐up land noise and the area of extracted water is thus overestimated. Accordingly, the MNDWI is more suitable for enhancing and extracting water information for a water region with a background dominated by built‐up land areas.  MNDWI = (Green - SWIR) / (Green + SWIR)
+The Modified Normalized Difference Water Index (MNDWI) uses green and SWIR bands for the enhancement of open water features. It also diminishes built-up area features that are often correlated with open water in other indices. The modified NDWI (MNDWI) can enhance open water features while efficiently suppressing and even removing built‐up land noise as well as vegetation and soil noise. The enhanced water information using the NDWI is often mixed with built‐up land noise and the area of extracted water is thus overestimated. Accordingly, the MNDWI is more suitable for enhancing and extracting water information for a water region with a background dominated by built‐up land areas.  MNDWI = (Green - SWIR) / (Green + SWIR).
 
 
 ## Single-Modal
 | Hand Labeled             |--- | --- | --- | --- |------|
 | ------------------------ |--- | --- | --- | --- | ---- |
 | Source & Labels          |IOU | Acc | Pre | F1  |Recall|
-| S1Hand & S1OtsuLabelHand |--- | --- | --- | --- | ---- |
-| S2Hand & LabelHand       |--- | --- | --- | --- | ---- |   
+| S1Hand & S1OtsuLabelHand |0.27|51.31|48.70|42.18|37.20 |
+| S2Hand & LabelHand       |0.54|70.51|70.51|70.51| 70.51|   
 
 
 |Weakly Labeled           | --- | --- | --- | --- |------|
