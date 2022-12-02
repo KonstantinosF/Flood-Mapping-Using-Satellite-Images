@@ -161,12 +161,12 @@ List of Hand Crafted Features:
 
 ## Multi-Modal
 
-| Hand Labeled                        |               |      | 
-| ----------------------------------- | ------------- | ---- | 
-| Source & Labels                     | Test Accuracy | IoU  | 
-| ----------------------------------- |-------------- | ---- |
-| S1Hand - S2Hand & S1OtsuLabelHand   |0.9010         |0.1784|
-
+| Hand Labeled                        | --- | --- | --- | --- |------|
+| ----------------------------------- | --- | --- | --- | --- | ---- | 
+| Source & Labels                     | IOU | Acc | Pre | F1  |Recall|
+| S1Hand - S2Hand & S1OtsuLabelHand   |.    |     |.    |.    |.     |
+| S1Hand - S2Hand & LabelHand         |0.55 |70.98|70.98|70.98|70.98 |
+  
 
 <h3> 3. Transfer Learning - VGG16 </h3>
 
