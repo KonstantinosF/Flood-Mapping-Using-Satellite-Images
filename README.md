@@ -138,7 +138,7 @@ List of Hand Crafted Features:
 - <b> Modified Normalized Difference Water Index (MNDWI) </b> </br>
 
 
-## Single-Modal
+### Single-Modal
 | Hand Labeled             |--- | --- | --- | --- |------|
 | ------------------------ |--- | --- | --- | --- | ---- |
 | Source & Labels          |IOU | Acc | Pre | F1  |Recall|
@@ -159,7 +159,7 @@ List of Hand Crafted Features:
                    
 
 
-## Multi-Modal
+### Multi-Modal
 
 | Hand Labeled                        | --- | --- | --- | --- |------|
 | ----------------------------------- | --- | --- | --- | --- | ---- | 
