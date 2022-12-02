@@ -162,7 +162,7 @@ The Modified Normalized Difference Water Index (MNDWI) uses green and SWIR bands
 
 
 |Weakly Labeled           | --- | --- | --- | --- |------|
-|-------------------------|     |     |     |     |.     |
+|-------------------------| --- | --- | --- | --- | ---- |
 | Source & Labels         | IOU | Acc | Pre | F1  |Recall|
 | S1Hand & S1OtsuLabelWeak|0.28 |51.19|49.14|43.15|38.45 |
 
