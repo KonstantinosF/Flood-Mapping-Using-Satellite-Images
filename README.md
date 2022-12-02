@@ -203,16 +203,35 @@ Classification
 
 Now we want to use those patterns to classify our images to their correct label. This part of the network does exactly that job, it uses the inputs from the previous layers to find the best class to your matched patterns in the new image.
 
-| Hand Labeled             |               |      | Weakly Labeled          |               |     | Weakly Supervised       |               |     |
-| ------------------------ | ------------- | ---- | ----------------------- | ------------- |---- | ----------------------- | ------------- | --- |
-| Source & Labels          | Test Accuracy |  IoU | Source & Labels         | Test Accuracy | IOU | Trained On              | Tested on     | IOU |
-| ------------------------ |   ----------- | ---- | ----------------------- | ------------- | --- | ----------------------- | ------------- | --- |
-| S1Hand & LabelHand       |               |      | S1Hand & S1OtsuLabelWeak|               |     | S1Hand & S1OtsuLabelWeak| LabelHand     |     |
-| S1Hand & S1OtsuLabelHand |               |      | S1Weak & S2IndexLabelWea|               |     | S1Hand & S2IndexLabel   | LabelHand     |     |
-| S1Hand & JRCWaterHand    |               |      |                         |               |     |
-| S2Hand & JRCWaterHand    |               |      |                         |               |     |
-| S2Hand & LabelHand       |               |      |                         |               |     |
-| S2Hand & S1OtsuLabelHand |               |      |                         |               |     |
+### Single-Modal - Transfer Learning
+| Hand Labeled             |--- | --- | --- | --- |------|
+| ------------------------ |--- | --- | --- | --- | ---- |
+| Source & Labels          |IOU | Acc | Pre | F1  |Recall|
+| S1Hand & S1OtsuLabelHand |    |     |.    |.    |.     |
+| S2Hand & LabelHand       |.   |.    |.    |.    |.     |   
+
+
+|Weakly Labeled           | --- | --- | --- | --- |------|
+|-------------------------| --- | --- | --- | --- | ---- |
+| Source & Labels         | IOU | Acc | Pre | F1  |Recall|
+| S1Hand & S1OtsuLabelWeak|.    |.    |.    |.    |      |
+
+
+|Weakly Supervised        |                 | --- | --- | --- | --- |------|
+|-------------------------|---------------- |---  | --- | --- | --- |------|
+| Trained On              |  Tested on      | IOU | Acc | Pre | F1  |Recall|
+| S1Hand & S1OtsuLabelWeak| S1OtsuLabelHand |     |     |.    |.    |.     |
+                   
+
+
+### Multi-Modal - Transfer Learning
+
+| Hand Labeled                        | --- | --- | --- | --- |------|
+| ----------------------------------- | --- | --- | --- | --- | ---- | 
+| Source & Labels                     | IOU | Acc | Pre | F1  |Recall|
+| S1Hand - S2Hand & S1OtsuLabelHand   |.    |     |.    |.    |.     |
+| S1Hand - S2Hand & LabelHand         |.    |.    |.    |.    |.     |
+
 
 
 Reference: https://towardsdatascience.com/transfer-learning-with-vgg16-and-keras-50ea161580b4
