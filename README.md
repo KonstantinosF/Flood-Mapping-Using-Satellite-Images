@@ -117,13 +117,34 @@ U-Net is a convolutional neural network that was developed for biomedical image 
   <img src="./imgs/UNET.png" width="500" />
 </p>
 
-| Hand Labeled             |               |      | Weakly Labeled          |               |     | Weakly Supervised       |               |     |
-| ------------------------ | ------------- | ---- | ----------------------- | ------------- | --- | ----------------------- | ------------- | --- |
-| Source & Labels          | Test Accuracy |  IoU | Source & Labels         | Test Accuracy | IOU | Trained On              | Tested on     | IOU |
-| ------------------------ |  ------------ | ---- | ----------------------- | ------------- | --- | ----------------------- | ------------- | --- |
-| S1Hand & S1OtsuLabelHand |               |      | S1Weak & S1OtsuLabelWeak|               |.    | S1Hand & S1OtsuLabelWeak|S1OtsuLabelHand|     |
-| S2Hand & LabelHand       |               |      |                         |               |     |                         |               |     |
+### Single-Modal - UNET
+| Hand Labeled             |--- | --- | --- | --- |------|
+| ------------------------ |--- | --- | --- | --- | ---- |
+| Source & Labels          |IOU | Acc | Pre | F1  |Recall|
+| S1Hand & S1OtsuLabelHand |    |     |.    |.    |.     |
+| S2Hand & LabelHand       |.   |.    |.    |.    |.     |   
 
+
+|Weakly Labeled           | --- | --- | --- | --- |------|
+|-------------------------| --- | --- | --- | --- | ---- |
+| Source & Labels         | IOU | Acc | Pre | F1  |Recall|
+| S1Hand & S1OtsuLabelWeak|.    |.    |.    |.    |      |
+
+
+|Weakly Supervised        |                 | --- | --- | --- | --- |------|
+|-------------------------|---------------- |---  | --- | --- | --- |------|
+| Trained On              |  Tested on      | IOU | Acc | Pre | F1  |Recall|
+| S1Hand & S1OtsuLabelWeak| S1OtsuLabelHand |     |     |.    |.    |.     |
+                   
+
+
+### Multi-Modal - UNET
+
+| Hand Labeled                        | --- | --- | --- | --- |------|
+| ----------------------------------- | --- | --- | --- | --- | ---- | 
+| Source & Labels                     | IOU | Acc | Pre | F1  |Recall|
+| S1Hand - S2Hand & S1OtsuLabelHand   |.    |     |.    |.    |.     |
+| S1Hand - S2Hand & LabelHand         |.    |.    |.    |.    |.     |
 
 
 <h3> 2. Random Forest - Feature Engineering </h3>
@@ -138,7 +159,7 @@ List of Hand Crafted Features:
 - <b> Modified Normalized Difference Water Index (MNDWI) </b> </br>
 
 
-### Single-Modal
+### Single-Modal - RF
 | Hand Labeled             |--- | --- | --- | --- |------|
 | ------------------------ |--- | --- | --- | --- | ---- |
 | Source & Labels          |IOU | Acc | Pre | F1  |Recall|
@@ -159,7 +180,7 @@ List of Hand Crafted Features:
                    
 
 
-### Multi-Modal
+### Multi-Modal - RF
 
 | Hand Labeled                        | --- | --- | --- | --- |------|
 | ----------------------------------- | --- | --- | --- | --- | ---- | 
