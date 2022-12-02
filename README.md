@@ -154,11 +154,11 @@ The Modified Normalized Difference Water Index (MNDWI) uses green and SWIR bands
     MNDWI = (B3 - B11) / (B3 + B11)
 
 ## Single-Modal
-| Hand Labeled             |               |      |
-| ------------------------ | ------------- | ---- | 
-| Source & Labels          | Test Accuracy |  IoU | 
-| S1Hand & S1OtsuLabelHand |               |      | 
-| S2Hand & LabelHand       |               |      |    
+| Hand Labeled             |--- | --- | --- | --- |------|
+| ------------------------ |--- | --- | --- | --- | ---- |
+| Source & Labels          |IOU | Acc | Pre | F1  |Recall|
+| S1Hand & S1OtsuLabelHand |--- | --- | --- | --- | ---- |
+| S2Hand & LabelHand       |--- | --- | --- | --- | ---- |   
 
 
 |Weakly Labeled           | --- | --- | --- | --- |------|
