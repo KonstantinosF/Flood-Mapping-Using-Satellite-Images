@@ -166,10 +166,11 @@ List of Hand Crafted Features:
 | Hand Labeled             |--- | --- | --- | --- |------|
 | ------------------------ |--- | --- | --- | --- | ---- |
 | Source & Labels          |IOU | Acc | Pre | F1  |Recall|
-| S1Hand & S1OtsuLabelHand |0.27|51.31|48.70|42.18|37.20 |
-| S2Hand & LabelHand       |0.54|70.51|70.51|70.51| 70.51|   
+| S1Hand & S1OtsuLabelHand |0.79|89.00|88.75|88.44|88.14 |
+| S2Hand & LabelHand       |0.54|70.51|70.51|70.51| 70.51|   - Fix
 
-Corrected
+
+Corrected - Fix
 |Weakly Labeled           | --- | --- | --- | --- |------|
 |-------------------------| --- | --- | --- | --- | ---- |
 | Source & Labels         | IOU | Acc | Pre | F1  |Recall|
