@@ -169,11 +169,12 @@ List of Hand Crafted Features:
 | S1Hand & S1OtsuLabelHand |0.27|51.31|48.70|42.18|37.20 |
 | S2Hand & LabelHand       |0.54|70.51|70.51|70.51| 70.51|   
 
-
+Corrected
 |Weakly Labeled           | --- | --- | --- | --- |------|
 |-------------------------| --- | --- | --- | --- | ---- |
 | Source & Labels         | IOU | Acc | Pre | F1  |Recall|
-| S1Hand & S1OtsuLabelWeak|0.28 |51.19|49.14|43.15|38.45 |
+| S1Hand & S1OtsuLabelWeak|0.77 |87.59|87.61|87.04|86.49 |
+
 
 
 |Weakly Supervised        |                 | --- | --- | --- | --- |------|
