@@ -175,7 +175,11 @@ Corrected - Fix
 |-------------------------| --- | --- | --- | --- | ---- |
 | Source & Labels         | IOU | Acc | Pre | F1  |Recall|
 | S1Hand & S1OtsuLabelWeak|0.77 |87.59|87.61|87.04|86.49 |
-
+Accuracy =  0.9011908637152778
+IOU =  0.812892322549493
+Precision =  0.9034900915199854
+Recall =  0.8901895707937222
+F1 score =  0.8967905180450128
 
 
 |Weakly Supervised        |                 | --- | --- | --- | --- |------|
