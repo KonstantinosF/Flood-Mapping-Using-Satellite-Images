@@ -167,19 +167,15 @@ List of Hand Crafted Features:
 | ------------------------ |--- | --- | --- | --- | ---- |
 | Source & Labels          |IOU | Acc | Pre | F1  |Recall|
 | S1Hand & S1OtsuLabelHand |0.79|89.00|88.75|88.44|88.14 |
-| S2Hand & LabelHand       |0.54|70.51|70.51|70.51| 70.51|   - Fix
+| S2Hand & LabelHand       |0.87|93.11|93.11|93.11|93.11 |
 
 
 Corrected - Fix
 |Weakly Labeled           | --- | --- | --- | --- |------|
 |-------------------------| --- | --- | --- | --- | ---- |
 | Source & Labels         | IOU | Acc | Pre | F1  |Recall|
-| S1Hand & S1OtsuLabelWeak|0.77 |87.59|87.61|87.04|86.49 |
-Accuracy =  0.9011908637152778
-IOU =  0.812892322549493
-Precision =  0.9034900915199854
-Recall =  0.8901895707937222
-F1 score =  0.8967905180450128
+| S1Hand & S1OtsuLabelWeak|0.81 |90.11|90.34|89.68|89.02 |
+
 
 
 |Weakly Supervised        |                 | --- | --- | --- | --- |------|
