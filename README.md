@@ -176,10 +176,10 @@ List of Hand Crafted Features:
 | S1Weak & S1OtsuLabelWeak|0.81 |90.11|90.34|89.68|89.02 |
 
 
-|Weakly Supervised        |                 | --- | --- | --- | --- |------|
-|-------------------------|---------------- |---  | --- | --- | --- |------|
-| Trained On              |  Tested on      | IOU | Acc | Pre | F1  |Recall|
-| S1Weak & S1OtsuLabelWeak| S1OtsuLabelHand | 0.27|50.59|47.76|41.89|37.30 |
+|Weakly Supervised        |                          | --- | --- | --- | --- |------|
+|-------------------------|--------------------------|---  | --- | --- | --- |------|
+| Trained On              |  Tested on               | IOU | Acc | Pre | F1  |Recall|
+| S1Weak & S1OtsuLabelWeak| S1Hand + S1OtsuLabelHand | 0.27|50.59|47.76|41.89|37.30 |
                    
 
 
