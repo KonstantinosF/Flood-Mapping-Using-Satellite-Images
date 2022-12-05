@@ -189,7 +189,8 @@ List of Hand Crafted Features:
 | ----------------------------------- | --- | --- | --- | --- | ---- | 
 | Source & Labels                     | IOU | Acc | Pre | F1  |Recall|
 | S1Hand - S2Hand & S1OtsuLabelHand   |0.84 |91.57|91.77|91.09|90.42 |
-| S1Hand - S2Hand & LabelHand         |0.55 |70.98|70.98|70.98|70.98 |
+| S1Hand - S2Hand & LabelHand         |0.87 |93.05|93.05|93.05|93.05 |
+
 
 <h3> 3. Transfer Learning - VGG16 </h3>
 
