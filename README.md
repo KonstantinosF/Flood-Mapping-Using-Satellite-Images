@@ -179,7 +179,14 @@ List of Hand Crafted Features:
 |Weakly Supervised        |                          | --- | --- | --- | --- |------|
 |-------------------------|--------------------------|---  | --- | --- | --- |------|
 | Trained On              |  Tested on               | IOU | Acc | Pre | F1  |Recall|
-| S1Weak & S1OtsuLabelWeak| S1Hand + S1OtsuLabelHand | 0.27|50.59|47.76|41.89|37.30 |
+| S1Weak & S1OtsuLabelWeak| S1Hand + S1OtsuLabelHand | 0.77|87.95|91.51|86.72|82.40 |
+
+
+Accuracy =  0.8795124761359944
+IOU =  0.765536895862859
+Precision =  0.9151527634132604
+Recall =  0.824022546895149
+F1 score =  0.8672001108067734
                    
 
 
