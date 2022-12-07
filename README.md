@@ -121,7 +121,7 @@ U-Net is a convolutional neural network that was developed for biomedical image 
 | Hand Labeled             |--- | --- | --- | --- |------|
 | ------------------------ |--- | --- | --- | --- | ---- |
 | Source & Labels          |IOU | Acc | Pre | F1  |Recall|
-| S1Hand & S1OtsuLabelHand |    |     |.    |.    |.     |
+| S1Hand & S1OtsuLabelHand |0.52|53.20|.    |.    |.     |
 | S2Hand & LabelHand       |.   |.    |.    |.    |.     |   
 
 
