@@ -224,7 +224,8 @@ Now we want to use those patterns to classify our images to their correct label.
 |Weakly Labeled           | --- | --- | --- | --- |------|
 |-------------------------| --- | --- | --- | --- | ---- |
 | Source & Labels         | IOU | Acc | Pre | F1  |Recall|
-| S1Hand & S1OtsuLabelWeak|.    |.    |.    |.    |      |
+| S1Hand & S1OtsuLabelWeak|0.86 |0.92 |.    |.    |      |
+
 
 
 |Weakly Supervised        |                 | --- | --- | --- | --- |------|
