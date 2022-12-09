@@ -213,11 +213,11 @@ Classification
 
 Now we want to use those patterns to classify our images to their correct label. This part of the network does exactly that job, it uses the inputs from the previous layers to find the best class to your matched patterns in the new image.
 
-### Single-Modal - Transfer Learning
+### Single-Modal - Transfer Learning (R NIR SWIR, VV+VH +VH/VV)
 | Hand Labeled             |--- | --- | --- | --- |------|
 | ------------------------ |--- | --- | --- | --- | ---- |
 | Source & Labels          |IOU | Acc | Pre | F1  |Recall|
-| S1Hand & S1OtsuLabelHand |    |     |.    |.    |.     |
+| S1Hand & S1OtsuLabelHand |0.84|0.92 |.    |.    |.     |
 | S2Hand & LabelHand       |0.47|0.65 |.    |.    |.     |   
 
 
