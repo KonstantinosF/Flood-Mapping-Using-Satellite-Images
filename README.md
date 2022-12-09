@@ -218,7 +218,7 @@ Now we want to use those patterns to classify our images to their correct label.
 | ------------------------ |--- | --- | --- | --- | ---- |
 | Source & Labels          |IOU | Acc | Pre | F1  |Recall|
 | S1Hand & S1OtsuLabelHand |    |     |.    |.    |.     |
-| S2Hand & LabelHand       |.   |.    |.    |.    |.     |   
+| S2Hand & LabelHand       |0.47|0.65 |.    |.    |.     |   
 
 
 |Weakly Labeled           | --- | --- | --- | --- |------|
