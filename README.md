@@ -228,12 +228,11 @@ Now we want to use those patterns to classify our images to their correct label.
 
 
 
-|Weakly Supervised        |                 | --- | --- | --- | --- |------|
-|-------------------------|---------------- |---  | --- | --- | --- |------|
-| Trained On              |  Tested on      | IOU | Acc | Pre | F1  |Recall|
-| S1Hand & S1OtsuLabelWeak| S1OtsuLabelHand |     |     |.    |.    |.     |
+|Weakly Supervised        |                          | --- | --- | --- | --- |------|
+|-------------------------|--------------------------|---  | --- | --- | --- |------|
+| Trained On              |  Tested on               | IOU | Acc | Pre | F1  |Recall|
+| S1Hand & S1OtsuLabelWeak| S1Hand + S1OtsuLabelHand |0.83 |0.91 |.    |.    |.     |
                    
-
 
 ### Multi-Modal - Transfer Learning
 
