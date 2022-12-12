@@ -246,11 +246,4 @@ Now we want to use those patterns to classify our images to their correct label.
 
 Reference: https://towardsdatascience.com/transfer-learning-with-vgg16-and-keras-50ea161580b4
 
-<h2> Pre - Processing - Sentinel 1 </h2>
-
-- Apply orbit file 
-- GRD border noise removal
-- Thermal noise removal
-- Radiometric calibration
-- Terrain correction (orthorectification)
   
