@@ -240,7 +240,8 @@ Now we want to use those patterns to classify our images to their correct label.
 | ----------------------------------- | --- | --- | --- | --- | ---- | 
 | Source & Labels                     | IOU | Acc | Pre | F1  |Recall|
 | S1Hand - S2Hand & S1OtsuLabelHand   |0.73 |0.85 |0.85 |0.85 |0.85  |
-| S1Hand - S2Hand & LabelHand         |.    |.    |.    |.    |.     |
+| S1Hand - S2Hand & LabelHand         |0.55 |0.71 |0.71 |0.71 |0.71  |
+
 
 
 Reference: https://towardsdatascience.com/transfer-learning-with-vgg16-and-keras-50ea161580b4
