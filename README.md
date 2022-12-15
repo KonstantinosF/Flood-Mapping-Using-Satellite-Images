@@ -180,13 +180,6 @@ List of Hand Crafted Features:
 |-------------------------|--------------------------|---  | --- | --- | --- |------|
 | Trained On              |  Tested on               | IOU | Acc | Pre | F1  |Recall|
 | S1Weak & S1OtsuLabelWeak| S1Hand + S1OtsuLabelHand | 0.77|87.95|91.51|86.72|82.40 |
-
-
-Accuracy =  0.8795124761359944
-IOU =  0.765536895862859
-Precision =  0.9151527634132604
-Recall =  0.824022546895149
-F1 score =  0.8672001108067734
                    
 
 
@@ -242,8 +235,5 @@ Now we want to use those patterns to classify our images to their correct label.
 | S1Hand - S2Hand & S1OtsuLabelHand   |0.73 |0.85 |0.85 |0.85 |0.85  |
 | S1Hand - S2Hand & LabelHand         |0.55 |0.71 |0.71 |0.71 |0.71  |
 
-
-
-Reference: https://towardsdatascience.com/transfer-learning-with-vgg16-and-keras-50ea161580b4
 
   
