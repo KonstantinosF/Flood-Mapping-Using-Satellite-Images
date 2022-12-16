@@ -55,7 +55,7 @@ While the <b>WeaklyLabeled</b> folder is splitted into 3 from which we are not u
 <p float="left">
   <img src="./imgs/WeaklyLabeledTable.png" width="500" />
 </p>
-As can be seen the size of the Weakly labeled dataset is much larger than the hand labeled one.
+As can be seen the size of the Weakly labeled dataset is much larger than the hand labeled one. It should be noted that weakly labeled patches are not overlapping with the hand labeled patches, but they are geographically close.
 
 <h2> Clean the Dataset - Pre Process </h2>
 <h3> Hand Labeled </h3>
