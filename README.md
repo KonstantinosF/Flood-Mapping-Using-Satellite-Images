@@ -118,33 +118,33 @@ U-Net is a convolutional neural network that was developed for biomedical image 
 </p>
 
 ### Single-Modal - UNET
-| Hand Labeled             |    |     |     |     |      |
-| ------------------------ |--- | --- | --- | --- | ---- |
-| Source & Labels          |IOU | Acc | Pre | F1  |Recall|
-| S1Hand & S1OtsuLabelHand |0.89|0.94 |.    |.    |.     |
-| S2Hand & LabelHand       |0.63|0.82 |.    |.    |.     |   
+| Hand Labeled             |    |     |
+| ------------------------ |--- | --- |
+| Source & Labels          |IOU | Acc |
+| S1Hand & S1OtsuLabelHand |0.89|0.94 |
+| S2Hand & LabelHand       |0.63|0.82 |  
 
 
-|Weakly Labeled           | --- | --- | --- | --- |------|
-|-------------------------| --- | --- | --- | --- | ---- |
-| Source & Labels         | IOU | Acc | Pre | F1  |Recall|
-| S1Hand & S1OtsuLabelWeak|0.81 |0.87 |.    |.    |      |
+|Weakly Labeled           | --- | --- |
+|-------------------------| --- | --- |
+| Source & Labels         | IOU | Acc |
+| S1Hand & S1OtsuLabelWeak|0.81 |0.87 |
 
 
-|Weakly Supervised        |                 | --- | --- | --- | --- |------|
-|-------------------------|---------------- |---  | --- | --- | --- |------|
-| Trained On              |  Tested on      | IOU | Acc | Pre | F1  |Recall|
-| S1Hand & S1OtsuLabelWeak| S1OtsuLabelHand |0.77 |0.86 |.    |.    |.     |
+|Weakly Supervised        |                 | --- | --- |
+|-------------------------|---------------- |---  | --- |
+| Trained On              |  Tested on      | IOU | Acc |
+| S1Hand & S1OtsuLabelWeak| S1OtsuLabelHand |0.77 |0.86 |
                    
 
 
 ### Multi-Modal - UNET
 
-| Hand Labeled                        | --- | --- | --- | --- |------|
-| ----------------------------------- | --- | --- | --- | --- | ---- | 
-| Source & Labels                     | IOU | Acc | Pre | F1  |Recall|
-| S1Hand - S2Hand & S1OtsuLabelHand   |0.72 |0.82 |.    |.    |.     |
-| S1Hand - S2Hand & LabelHand         |0.67 |0.84 |.    |     |.     |
+| Hand Labeled                        | --- | --- |
+| ----------------------------------- | --- | --- |
+| Source & Labels                     | IOU | Acc |
+| S1Hand - S2Hand & S1OtsuLabelHand   |0.72 |0.82 |
+| S1Hand - S2Hand & LabelHand         |0.67 |0.84 |
 
 
 
@@ -207,24 +207,24 @@ Classification
 Now we want to use those patterns to classify our images to their correct label. This part of the network does exactly that job, it uses the inputs from the previous layers to find the best class to your matched patterns in the new image.
 
 ### Single-Modal - Transfer Learning (R NIR SWIR, VV+VH +VH/VV)
-| Hand Labeled             |--- | --- | --- | --- |------|
-| ------------------------ |--- | --- | --- | --- | ---- |
-| Source & Labels          |IOU | Acc | Pre | F1  |Recall|
-| S1Hand & S1OtsuLabelHand |0.84|0.92 |.    |.    |.     |
-| S2Hand & LabelHand       |0.47|0.65 |.    |.    |.     |   
+| Hand Labeled             |--- | --- |
+| ------------------------ |--- | --- |
+| Source & Labels          |IOU | Acc |
+| S1Hand & S1OtsuLabelHand |0.84|0.92 |
+| S2Hand & LabelHand       |0.47|0.65 | 
 
 
-|Weakly Labeled           | --- | --- | --- | --- |------|
-|-------------------------| --- | --- | --- | --- | ---- |
-| Source & Labels         | IOU | Acc | Pre | F1  |Recall|
-| S1Hand & S1OtsuLabelWeak|0.86 |0.92 |.    |.    |      |
+|Weakly Labeled           | --- | --- |
+|-------------------------| --- | --- |
+| Source & Labels         | IOU | Acc |
+| S1Hand & S1OtsuLabelWeak|0.86 |0.92 |
 
 
 
-|Weakly Supervised        |                          | --- | --- | --- | --- |------|
-|-------------------------|--------------------------|---  | --- | --- | --- |------|
-| Trained On              |  Tested on               | IOU | Acc | Pre | F1  |Recall|
-| S1Hand & S1OtsuLabelWeak| S1Hand + S1OtsuLabelHand |0.83 |0.91 |.    |.    |.     |
+|Weakly Supervised        |                          | --- | --- |
+|-------------------------|--------------------------|---  | --- |
+| Trained On              |  Tested on               | IOU | Acc |
+| S1Hand & S1OtsuLabelWeak| S1Hand + S1OtsuLabelHand |0.83 |0.91 |
                    
 
 ### Multi-Modal - Transfer Learning (VH+RED+NIR)
