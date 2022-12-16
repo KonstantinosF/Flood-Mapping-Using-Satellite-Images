@@ -170,13 +170,13 @@ List of Hand Crafted Features:
 | S2Hand & LabelHand       |0.87|93.11|93.11|93.11|93.11 |
 
 
-|Weakly Labeled           | --- | --- | --- | --- |------|
+|Weakly Labeled           |     |     |     |     |      |
 |-------------------------| --- | --- | --- | --- | ---- |
 | Source & Labels         | IOU | Acc | Pre | F1  |Recall|
 | S1Weak & S1OtsuLabelWeak|0.81 |90.11|90.34|89.68|89.02 |
 
 
-|Weakly Supervised        |                          | --- | --- | --- | --- |------|
+|Weakly Supervised        |                          |     |     |     |     |      |
 |-------------------------|--------------------------|---  | --- | --- | --- |------|
 | Trained On              |  Tested on               | IOU | Acc | Pre | F1  |Recall|
 | S1Weak & S1OtsuLabelWeak| S1Hand + S1OtsuLabelHand | 0.77|87.95|91.51|86.72|82.40 |
@@ -185,7 +185,7 @@ List of Hand Crafted Features:
 
 ### Multi-Modal - RF
 
-| Hand Labeled                        | --- | --- | --- | --- |------|
+| Hand Labeled                        |     |     |     |     |      |
 | ----------------------------------- | --- | --- | --- | --- | ---- | 
 | Source & Labels                     | IOU | Acc | Pre | F1  |Recall|
 | S1Hand - S2Hand & S1OtsuLabelHand   |0.84 |91.57|91.77|91.09|90.42 |
@@ -207,21 +207,21 @@ Classification
 Now we want to use those patterns to classify our images to their correct label. This part of the network does exactly that job, it uses the inputs from the previous layers to find the best class to your matched patterns in the new image.
 
 ### Single-Modal - Transfer Learning (R NIR SWIR, VV+VH +VH/VV)
-| Hand Labeled             |--- | --- |
+| Hand Labeled             |    |     |
 | ------------------------ |--- | --- |
 | Source & Labels          |IOU | Acc |
 | S1Hand & S1OtsuLabelHand |0.84|0.92 |
 | S2Hand & LabelHand       |0.47|0.65 | 
 
 
-|Weakly Labeled           | --- | --- |
+|Weakly Labeled           |     |     |
 |-------------------------| --- | --- |
 | Source & Labels         | IOU | Acc |
 | S1Hand & S1OtsuLabelWeak|0.86 |0.92 |
 
 
 
-|Weakly Supervised        |                          | --- | --- |
+|Weakly Supervised        |                          |     |     |
 |-------------------------|--------------------------|---  | --- |
 | Trained On              |  Tested on               | IOU | Acc |
 | S1Hand & S1OtsuLabelWeak| S1Hand + S1OtsuLabelHand |0.83 |0.91 |
@@ -229,7 +229,7 @@ Now we want to use those patterns to classify our images to their correct label.
 
 ### Multi-Modal - Transfer Learning (VH+RED+NIR)
 
-| Hand Labeled                        | --- | --- | --- | --- |------|
+| Hand Labeled                        |     |     |     |     |      |
 | ----------------------------------- | --- | --- | --- | --- | ---- | 
 | Source & Labels                     | IOU | Acc | Pre | F1  |Recall|
 | S1Hand - S2Hand & S1OtsuLabelHand   |0.73 |0.85 |0.85 |0.85 |0.85  |
