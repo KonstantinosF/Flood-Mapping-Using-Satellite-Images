@@ -125,13 +125,13 @@ U-Net is a convolutional neural network that was developed for biomedical image 
 | S2Hand & LabelHand       |0.63|0.82 |  
 
 
-|Weakly Labeled           | --- | --- |
+|Weakly Labeled           |     |     |
 |-------------------------| --- | --- |
 | Source & Labels         | IOU | Acc |
 | S1Hand & S1OtsuLabelWeak|0.81 |0.87 |
 
 
-|Weakly Supervised        |                 | --- | --- |
+|Weakly Supervised        |                 |     |     |
 |-------------------------|---------------- |---  | --- |
 | Trained On              |  Tested on      | IOU | Acc |
 | S1Hand & S1OtsuLabelWeak| S1OtsuLabelHand |0.77 |0.86 |
@@ -140,7 +140,7 @@ U-Net is a convolutional neural network that was developed for biomedical image 
 
 ### Multi-Modal - UNET
 
-| Hand Labeled                        | --- | --- |
+| Hand Labeled                        |     |     |
 | ----------------------------------- | --- | --- |
 | Source & Labels                     | IOU | Acc |
 | S1Hand - S2Hand & S1OtsuLabelHand   |0.72 |0.82 |
@@ -163,7 +163,7 @@ List of Hand Crafted Features:
 
 
 ### Single-Modal - RF
-| Hand Labeled             |--- | --- | --- | --- |------|
+| Hand Labeled             |    |     |     |     |      |
 | ------------------------ |--- | --- | --- | --- | ---- |
 | Source & Labels          |IOU | Acc | Pre | F1  |Recall|
 | S1Hand & S1OtsuLabelHand |0.79|89.00|88.75|88.44|88.14 |
