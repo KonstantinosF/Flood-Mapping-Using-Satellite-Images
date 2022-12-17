@@ -163,33 +163,33 @@ List of Hand Crafted Features:
 
 
 ### Single-Modal - RF
-| Hand Labeled             |    |     |     |     |      |
-| ------------------------ |--- | --- | --- | --- | ---- |
-| Source & Labels          |IOU | Acc | Pre | F1  |Recall|
-| S1Hand & S1OtsuLabelHand |0.79|89.00|88.75|88.44|88.14 |
-| S2Hand & LabelHand       |0.87|93.11|93.11|93.11|93.11 |
+| Hand Labeled             |    |     |
+| ------------------------ |--- | --- |
+| Source & Labels          |IOU | Acc |
+| S1Hand & S1OtsuLabelHand |0.79|89.00|
+| S2Hand & LabelHand       |0.87|93.11|
 
 
-|Weakly Labeled           |     |     |     |     |      |
-|-------------------------| --- | --- | --- | --- | ---- |
-| Source & Labels         | IOU | Acc | Pre | F1  |Recall|
-| S1Weak & S1OtsuLabelWeak|0.81 |90.11|90.34|89.68|89.02 |
+|Weakly Labeled           |     |     |
+|-------------------------| --- | --- |
+| Source & Labels         | IOU | Acc |
+| S1Weak & S1OtsuLabelWeak|0.81 |90.11|
 
 
-|Weakly Supervised        |                          |     |     |     |     |      |
-|-------------------------|--------------------------|---  | --- | --- | --- |------|
-| Trained On              |  Tested on               | IOU | Acc | Pre | F1  |Recall|
-| S1Weak & S1OtsuLabelWeak| S1Hand + S1OtsuLabelHand | 0.77|87.95|91.51|86.72|82.40 |
+|Weakly Supervised        |                          |     |     |
+|-------------------------|--------------------------|---  | --- |
+| Trained On              |  Tested on               | IOU | Acc |
+| S1Weak & S1OtsuLabelWeak| S1Hand + S1OtsuLabelHand | 0.77|87.95|
                    
 
 
 ### Multi-Modal - RF
 
-| Hand Labeled                        |     |     |     |     |      |
-| ----------------------------------- | --- | --- | --- | --- | ---- | 
-| Source & Labels                     | IOU | Acc | Pre | F1  |Recall|
-| S1Hand - S2Hand & S1OtsuLabelHand   |0.84 |91.57|91.77|91.09|90.42 |
-| S1Hand - S2Hand & LabelHand         |0.87 |93.05|93.05|93.05|93.05 |
+| Hand Labeled                        |     |     |
+| ----------------------------------- | --- | --- |
+| Source & Labels                     | IOU | Acc |
+| S1Hand - S2Hand & S1OtsuLabelHand   |0.84 |91.57|
+| S1Hand - S2Hand & LabelHand         |0.87 |93.05|
 
 
 <h3> 3. Transfer Learning - VGG16 </h3>
@@ -229,11 +229,11 @@ Now we want to use those patterns to classify our images to their correct label.
 
 ### Multi-Modal - Transfer Learning (VH+RED+NIR)
 
-| Hand Labeled                        |     |     |     |     |      |
-| ----------------------------------- | --- | --- | --- | --- | ---- | 
-| Source & Labels                     | IOU | Acc | Pre | F1  |Recall|
-| S1Hand - S2Hand & S1OtsuLabelHand   |0.73 |0.85 |0.85 |0.85 |0.85  |
-| S1Hand - S2Hand & LabelHand         |0.55 |0.71 |0.71 |0.71 |0.71  |
+| Hand Labeled                        |     |     |
+| ----------------------------------- | --- | --- |
+| Source & Labels                     | IOU | Acc |
+| S1Hand - S2Hand & S1OtsuLabelHand   |0.73 |0.85 |
+| S1Hand - S2Hand & LabelHand         |0.55 |0.71 |
 
 
   
