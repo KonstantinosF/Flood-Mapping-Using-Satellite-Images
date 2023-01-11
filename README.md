@@ -100,7 +100,11 @@ The link for the new dataset:
 
 
 <h2> Experiments  </h2>
-Experiments were splited into three parts, with each one based on a different semantic segmentation scheme. The first one is based on a Random Forest architecture and a set of hand crafted features, the second is based on the concept of transfer learning while the last on is based on a U-NET fully convolutional neural network. 
+Experiments were splited into three parts, with each one based on a different
+semantic segmentation scheme. The first one is based on a Fully Convolutional
+Neural Network called U-NET, the second approach is based on a Random Forest
+and a set of hand crafted features while the last one is based on the concept of
+Transfer Learning using as a backbone the VGG16 model.
 
 <p align="center">
 
