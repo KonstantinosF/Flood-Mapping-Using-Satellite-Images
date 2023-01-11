@@ -65,7 +65,7 @@ and open Geographic Information System software called QGIS, we noticed that
 many images contain corroded pixels with no information or the number with flooded
 pixels is significant lower than the background pixels. Additionally it was noticed
 that a large number of sentinel 2 images are heavily or totally covered with clouds.
-Bellow (Figure 4.2) is an illustration of a sentinel 2 image tile blocked with clouds,
+Bellow is an illustration of a sentinel 2 image tile blocked with clouds,
 the corresponding sentinel 1 tile and the respective ground truth.
 The initial image tiles of 512x512 size were splited into patches of 128x128, so
 from each itinial image 16 patches were created. The splitting process in a google
