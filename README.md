@@ -96,7 +96,7 @@ in a dataset comprised of 6835 patches. Since the number of patches were still v
 high and not easy to handle, only the first 50 patches from each geographic area we
 kept, resulting in 600 patches in total. </p>
 
-The link for the new dataset:
+The link for the new dataset: https://uopel-my.sharepoint.com/:f:/g/personal/dit2025dsc_office365_uop_gr/EjZZUSHVyv1LozsRfnTt7uEBKoDEbOsyDsCOzMPi0X02lQ?e=gBMJub
 
 
 <h2> Experiments  </h2>
