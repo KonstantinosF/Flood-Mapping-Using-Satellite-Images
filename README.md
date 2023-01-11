@@ -60,9 +60,18 @@ As can be seen the size of the Weakly labeled dataset is much larger than the ha
 <h2> Clean the Dataset - Pre Process </h2>
 <h3> Hand Labeled </h3>
 
-<p center="left"> After visualy checking the dataset with manually loading several image patches on a free and open Geographic Information System software called <a href="https://www.qgis.org/en/site/">QGIS</a>, we noticed that many images do not contain pixels with flood. Additionally we saw that many sentinel 2 images are majored covered with clouds which makes them useless. Bellow is an illustration of a sentinel 2 image tile blocked with clouds and the corresponding sentinel 1 tile and the respective label.</p>
+<p center="left"> After visually checking the dataset with manually loading image patches on a free
+and open Geographic Information System software called QGIS, we noticed that
+many images contain corroded pixels with no information or the number with flooded
+pixels is significant lower than the background pixels. Additionally it was noticed
+that a large number of sentinel 2 images are heavily or totally covered with clouds.
+Bellow (Figure 4.2) is an illustration of a sentinel 2 image tile blocked with clouds,
+the corresponding sentinel 1 tile and the respective ground truth.
+The initial image tiles of 512x512 size were splited into patches of 128x128, so
+from each itinial image 16 patches were created. The splitting process in a google
+colab environment took 8 to 10 hours to complete.</p>
 
-
+<p center="left"> Another critical issue was the imbalance between the number of flooded pixels and the background pixels. In order to overcome all these challenges and create a coherent multimodal dataset, we eliminated patches completely covered with clouds, with no flooded pixels or corroded pixels but also the patches with unbalanced number of flooded pixels and background pixels. The remaining number of patches per geographic area is illustrated in Table 4.1. with a total number of images of 577.</p>
 
 <p float="left">
   <img src="./imgs/s2.png" width="200" />
@@ -70,36 +79,24 @@ As can be seen the size of the Weakly labeled dataset is much larger than the ha
   <img src="./imgs/label.png" width="200" />
 </p>
 
-Additionaly some images appear to be acquired as "half" with this part of the image to be labeled as (-1).
 
 <p float="left">
   <img src="./imgs/S2_half.png" width="200" />
   <img src="./imgs/Label_half.png" width="200" /> 
 </p>
 
-Furthermote in order to create a set of sentinel 2 and sentinel 1 datasets which will be comparable we decided to remove the image tiles with at least one pixel labeled as (-1)...Since sentinel 1 labels do not have the label -1 (clouds). ...to be able to create a multi-modal dataset. It was decided that the labeling dataset JRCWaterHand will not be used since it doesn't cover floods but permanent waters.
-
-The initial image tiles of 512x512 size were splited into patches of 128x128. So from each itinial image 16 patches were created. In a google colab environment it took 8 to 10 hours to finish.
-
-After spliting the intial images, we resulted into 7136 128x128 image patches for S1Hand, S2Hand, LabelHand and S1OtsuLabelHand. From these we identified the patches with only (-1) label and deleted them. After this proccess we ended up with 6825 patches.
-
-Bolivia new: 231
-Ghana new: 650
-India new: 1068
-Mekong new: 479
-Nigeria new: 282
-Pakistan new: 417
-Paraguay new: 1055
-Somalia new: 414
-Spain new: 478
-Sri-Lanka new: 663
-USA new: 1088
-
 
 <h3> Weakly Labeled </h3>
-<p center="left"> The initial total number of images were 4384. We split each image into 16 patches of a size 128x128 pixels, resulting in 70144 patches in ttoal. From these we remove the patches having at least one pixel labeled as (-1), patches were the number of flooded pixels were more than 50% than the background pixels and patches with with background pixels more than 50% of the flooded pixels, reuslting in a dataset comprised of 6835 patches. Since the number of patches were still very high and not easy to handle we kept only the first 50 patches from each geographic area, resulting in 600 patches in total. </p>
+<p center="left"> The initial total number of images were 4384. Each image was splitted into 16
+patches of a size 128x128 pixels, resulting in 70144 patches in total. From these we
+remove the patches having at least one cropped pixel labeled as (-1), patches were
+the number of flooded pixels were more than 50% than the background pixels and
+patches with with background pixels more than 50% of the flooded pixels, resulting
+in a dataset comprised of 6835 patches. Since the number of patches were still very
+high and not easy to handle, only the first 50 patches from each geographic area we
+kept, resulting in 600 patches in total. </p>
 
-The link for the new dataset: https://uopel-my.sharepoint.com/:f:/g/personal/dit2025dsc_office365_uop_gr/EomiPN1R1GNMuYLDtHBQgaoBVZ1GBJ-Xfo8xGmuSfAh2Ug?e=wKLRmL
+The link for the new dataset:
 
 
 <h2> Experiments  </h2>
