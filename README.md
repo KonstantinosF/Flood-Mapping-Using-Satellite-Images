@@ -163,20 +163,20 @@ and variance filters with kernel size of 3 and the roberts edge detection filter
 | Hand Labeled             |    |     |
 | ------------------------ |--- | --- |
 | Source & Labels          |IOU | Acc |
-| S1Hand & S1OtsuLabelHand |0.79|89.00|
+| S1Hand & S1OtsuLabelHand |0.79|0.89 |
 | S2Hand & LabelHand       |0.87|93.11|
 
 
 |Weakly Labeled           |     |     |
 |-------------------------| --- | --- |
 | Source & Labels         | IOU | Acc |
-| S1Weak & S1OtsuLabelWeak|0.81 |90.11|
+| S1Weak & S1OtsuLabelWeak|0.81 |0.90 |
 
 
 |Weakly Supervised        |                          |     |     |
 |-------------------------|--------------------------|---  | --- |
 | Trained On              |  Tested on               | IOU | Acc |
-| S1Weak & S1OtsuLabelWeak| S1Hand + S1OtsuLabelHand | 0.77|87.95|
+| S1Weak & S1OtsuLabelWeak| S1Hand + S1OtsuLabelHand | 0.77|0.88 |
                    
 
 
@@ -185,8 +185,8 @@ and variance filters with kernel size of 3 and the roberts edge detection filter
 | Hand Labeled                        |     |     |
 | ----------------------------------- | --- | --- |
 | Source & Labels                     | IOU | Acc |
-| S1Hand - S2Hand & S1OtsuLabelHand   |0.84 |91.57|
-| S1Hand - S2Hand & LabelHand         |0.87 |93.05|
+| S1Hand - S2Hand & S1OtsuLabelHand   |0.84 |0.92 |
+| S1Hand - S2Hand & LabelHand         |0.87 |0.93 |
 
 
 <h3> 3. Transfer Learning - VGG16 </h3>
