@@ -154,13 +154,12 @@ U-Net is a convolutional neural network that was developed for biomedical image 
 <h3> 2. Random Forest - Feature Engineering </h3>
 Feature based segmentation using Random Forest
 
-List of Hand Crafted Features:
-  
-- <b> Roberts Cross </b> </br>
-- <b> Median Kernel 3x3</b> </br>
-- <b> Variance Kernel 3x3</b> </br>
-- <b> Normalized Difference Vegetation Index (NDVI) </b> </br>
-- <b> Modified Normalized Difference Water Index (MNDWI) </b> </br>
+<p center="left">For this set of experiments a various hand crafted features were utilized from both
+sentinel 1 and sentinel 2 raw spectral bands. More specifically from optical bands
+were constructed the NDVI and NDWI while from sentinel 1 the devision between
+VV and VH. Apart from these futures three more kernel based features were con-
+structed based on VH and NIR bands respectively. Those are the median filter with
+and variance filters with kernel size of 3 and the roberts edge detection filter.</p>
 
 
 ### Single-Modal - RF
