@@ -191,17 +191,11 @@ and variance filters with kernel size of 3 and the roberts edge detection filter
 
 <h3> 3. Transfer Learning - VGG16 </h3>
 
-![image](https://user-images.githubusercontent.com/23013328/166447610-df628514-8824-4641-8180-5eb4bd1c4e26.png)
+<!-- ![image](https://user-images.githubusercontent.com/23013328/166447610-df628514-8824-4641-8180-5eb4bd1c4e26.png) -->
 
-A CNN can be divided into two main parts: Feature learning and classification.
-
-Feature Learning
-
-In this part, the main goal of the NN is to find patterns in the pixels of the images that can be useful to identify the targets of the classification. That happens in the convolution layers of the network that specializes in those patterns for the problem at hand.
-
-Classification
-
-Now we want to use those patterns to classify our images to their correct label. This part of the network does exactly that job, it uses the inputs from the previous layers to find the best class to your matched patterns in the new image.
+<p center="left">In the current study the VGG16 architecture pretrained on the Imagenet pub-
+licly available data is being used, while the Sen1Floods11 dataset is used for fine
+tuning. Lastly, the classification part is handled by a random forest. </p>
 
 ### Single-Modal - Transfer Learning (R NIR SWIR, VV+VH +VH/VV)
 | Hand Labeled             |    |     |
