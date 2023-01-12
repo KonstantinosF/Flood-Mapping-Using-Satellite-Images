@@ -164,7 +164,7 @@ and variance filters with kernel size of 3 and the roberts edge detection filter
 | ------------------------ |--- | --- |
 | Source & Labels          |IOU | Acc |
 | S1Hand & S1OtsuLabelHand |0.79|0.89 |
-| S2Hand & LabelHand       |0.87|93.11|
+| S2Hand & LabelHand       |0.87|0.93 |
 
 
 |Weakly Labeled           |     |     |
