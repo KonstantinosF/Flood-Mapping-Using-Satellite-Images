@@ -115,7 +115,7 @@ Transfer Learning using as a backbone the VGG16 model.</p>
   <img src="./imgs/UNET.png" width="500" />
 </p> -->
 
-### Single-Modal - UNET
+#### Single-Modal - UNET
 | Hand Labeled             |    |     |
 | ------------------------ | ---|---- |
 | Source & Labels          |IOU | Acc |
@@ -136,7 +136,7 @@ Transfer Learning using as a backbone the VGG16 model.</p>
                    
 
 
-### Multi-Modal - UNET
+#### Multi-Modal - UNET
 
 | Hand Labeled                        |     |     |
 | ----------------------------------- | --- | --- |
@@ -159,7 +159,7 @@ structed based on VH and NIR bands respectively. Those are the median filter wit
 and variance filters with kernel size of 3 and the roberts edge detection filter.</p>
 
 
-### Single-Modal - RF
+#### Single-Modal - RF
 | Hand Labeled             |    |     |
 | ------------------------ |--- | --- |
 | Source & Labels          |IOU | Acc |
@@ -180,7 +180,7 @@ and variance filters with kernel size of 3 and the roberts edge detection filter
                    
 
 
-### Multi-Modal - RF
+#### Multi-Modal - RF
 
 | Hand Labeled                        |     |     |
 | ----------------------------------- | --- | --- |
@@ -197,7 +197,7 @@ and variance filters with kernel size of 3 and the roberts edge detection filter
 licly available data is being used, while the Sen1Floods11 dataset is used for fine
 tuning. Lastly, the classification part is handled by a random forest. </p>
 
-### Single-Modal - Transfer Learning (R NIR SWIR, VV+VH +VH/VV)
+#### Single-Modal - Transfer Learning (R NIR SWIR, VV+VH +VH/VV)
 | Hand Labeled             |    |     |
 | ------------------------ |--- | --- |
 | Source & Labels          |IOU | Acc |
@@ -218,7 +218,7 @@ tuning. Lastly, the classification part is handled by a random forest. </p>
 | S1Hand & S1OtsuLabelWeak| S1Hand + S1OtsuLabelHand |0.83 |0.91 |
                    
 
-### Multi-Modal - Transfer Learning (VH+RED+NIR)
+#### Multi-Modal - Transfer Learning (VH+RED+NIR)
 
 | Hand Labeled                        |     |     |
 | ----------------------------------- | --- | --- |
