@@ -237,4 +237,6 @@ Now we want to use those patterns to classify our images to their correct label.
 | S1Hand - S2Hand & LabelHand         |0.55 |0.71 |
 
 
-  
+
+<h2> Credits  </h2>
+Credits to <a href="https://github.com/bnsreenu">Dr. Sreenivas Bhattiprolu</a> for his excellent python and machine learning tutorials which I used through out my thesis.
