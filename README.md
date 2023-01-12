@@ -120,7 +120,7 @@ Transfer Learning using as a backbone the VGG16 model.</p>
 | ------------------------ | ---|---- |
 | Source & Labels          |IOU | Acc |
 | S1Hand & S1OtsuLabelHand |0.89|0.94 |
-| S2Hand & LabelHand       |0.63|0.82 |  
+| S2Hand & LabelHand       |0.47|0.72 |  
 
 
 |Weakly Labeled           |     |     |
@@ -142,7 +142,7 @@ Transfer Learning using as a backbone the VGG16 model.</p>
 | ----------------------------------- | --- | --- |
 | Source & Labels                     | IOU | Acc |
 | S1Hand - S2Hand & S1OtsuLabelHand   |0.72 |0.82 |
-| S1Hand - S2Hand & LabelHand         |0.67 |0.84 |
+| S1Hand - S2Hand & LabelHand         |0.42 |0.71 |
 
 
 
